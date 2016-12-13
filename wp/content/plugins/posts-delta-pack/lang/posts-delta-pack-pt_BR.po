@@ -1,0 +1,1037 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts Alfa Pack\n"
+"POT-Creation-Date: 2016-04-14 11:53-0300\n"
+"PO-Revision-Date: 2016-04-14 11:55-0300\n"
+"Last-Translator: Quartel Design <suporte@quarteldesign.com>\n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_x\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack\n"
+"X-Poedit-SearchPath-1: /Applications/MAMP/htdocs/wp-lab/content/plugins/posts-alfa-pack\n"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:73
+msgid "The parameters for taxonomy and post type is required"
+msgstr "Os parâmetros para taxonomia e post tape são obrigatórios"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:303
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:110
+msgid "No comments yet"
+msgstr "Deixe um comentário"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:303
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:110
+msgid "1 comment"
+msgstr "1 comentário"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:303
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:110
+#, php-format
+msgid "% comments"
+msgstr "% comentários"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:303
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:110
+msgid "Comments are off for this post"
+msgstr "Comentários desabilitados para este post"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:377
+msgid "<i class=\"glyphicon glyphicon-chevron-left\"></i>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:378
+msgid "<i class=\"glyphicon glyphicon-chevron-right\"></i>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:423
+msgid "First"
+msgstr "Primeira"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:426
+msgid "previous"
+msgstr "anterior"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:441
+msgid "next"
+msgstr "próxima"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:445
+msgid "Last"
+msgstr "Última"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/custom-fields-register.php:51
+msgid "Additional information"
+msgstr "Informações adicionais"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:83
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:99
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:137
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:84
+#, php-format
+msgid "Add New %s"
+msgstr "Adicionar Novo %s"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:85
+#, php-format
+msgid "New %s"
+msgstr "Novo %s"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:86
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:87
+#, php-format
+msgid "View %s"
+msgstr "Ver %s"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:88
+#, php-format
+msgid "All posts in %s"
+msgstr "Todos posts em %s"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:89
+#, php-format
+msgid "Search %s"
+msgstr "Buscar %s"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:90
+#, php-format
+msgid "Parent %s:"
+msgstr "%s Parente:"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:91
+#, php-format
+msgid "No %s found"
+msgstr "Nenhum %s encontrado"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/includes/post-types-register.php:92
+#, php-format
+msgid "No %s found in Trash"
+msgstr "Nenhum %s encontrado na Lixeira"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:48
+msgid "Posts"
+msgstr "Posts"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:95
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:97
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:98
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:733
+msgid "Post Types"
+msgstr "Post Types"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:96
+msgid "Post Type"
+msgstr "Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:100
+msgid "Add New Post Type"
+msgstr "Adicionar Novo Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:101
+msgid "New Post Type"
+msgstr "Novo Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:102
+msgid "Edit Post Type"
+msgstr "Editar Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:103
+msgid "View Post Type"
+msgstr "Ver Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:104
+msgid "Posts Types"
+msgstr "Posts Types"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:105
+msgid "Search Posts Types"
+msgstr "Buscar Posts Types"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:106
+msgid "Parent Posts Types:"
+msgstr "Post Types Parentes:"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:107
+msgid "No post type found."
+msgstr "Nenhum post tape encontrado."
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:108
+msgid "No posts types found in Trash."
+msgstr "Nenhum post type foi encontrado na Lixeira."
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:133
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:135
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:136
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:142
+msgid "Taxonomies"
+msgstr "Taxonomias"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:134
+msgid "Taxonomy"
+msgstr "Taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:138
+msgid "Add New Taxonomy"
+msgstr "Adicionar Nova Taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:139
+msgid "New Taxonomy"
+msgstr "Nova Taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:140
+msgid "Edit Taxonomy"
+msgstr "Editar Taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:141
+msgid "View Taxonomy"
+msgstr "Ver Taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:143
+msgid "Search Taxonomies"
+msgstr "Buscar Taxonomias"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:144
+msgid "Parent Taxonomies:"
+msgstr "Taxonomias parentes:"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:145
+msgid "No taxonomy found."
+msgstr "Nenhuma taxonomia encontrada."
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:146
+msgid "No taxonomies found in Trash."
+msgstr "Nenhuma taxonomia foi encontrada na Lixeira"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:372
+msgid "Post Type settings"
+msgstr "Configurações do Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:383
+msgid "Post Type name"
+msgstr "Nome do Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:395
+msgid "Post Type singular name"
+msgstr "Nome singular do Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:402
+msgid "Post type slug"
+msgstr "Slug do Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:419
+msgid "Post type menu dashicon class"
+msgstr "Classe do ícone do Post type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:420
+msgid ""
+"Set the class of menu <a href=\"https://developer.wordpress.org/resource/dashicons\" target=\"_blank"
+"\">dashicon</a>"
+msgstr ""
+"Defina a classe para o menu <a href=\"https://developer.wordpress.org/resource/dashicons\" target=\"_blank"
+"\">dashicon</a>"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:427
+msgid "Has archive"
+msgstr "Possui arquivo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:428
+msgid "Mark if this post type has archive for show posts in front end"
+msgstr "Marque se este post type possue arquivo para exibir os posts no front end"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:434
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:726
+msgid "Hierarchical"
+msgstr "Hieráquico "
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:435
+msgid "Mark if this post type is hierarchical like a page"
+msgstr "Marque se este post type é hierárquico como uma página"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:441
+msgid "Show in feeds"
+msgstr "Mostrar nos feeds"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:442
+msgid "Mark if you want that post type in wordpress feeds"
+msgstr "Marque se você deseja que este post type apareça nos feeds do wordpress"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:448
+msgid "Post type supports"
+msgstr "Suportes do post type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:453
+msgid "Editor"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:454
+msgid "Author"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:455
+msgid "Thumbnail"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:456
+msgid "Excerpt"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:457
+msgid "Trackbacks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:458
+msgid "Custom Fields"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:459
+msgid "Comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:460
+msgid "Revisions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:461
+msgid "Page Attributes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:462
+msgid "Post Formats"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:482
+msgid "Default taxonomy"
+msgstr "Taxonomia padrão"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:483
+msgid "Set the default taxonomy for this post type"
+msgstr "Defina a taxonomia padrão para este post type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:498
+msgid "Template settings"
+msgstr "Configurações do Template"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:509
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:741
+msgid "Posts per page"
+msgstr "Posts por página"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:510
+msgid "Number of posts per page in the post archive"
+msgstr "Número de posts por página no template de arquivo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:517
+msgid "Number of posts per line"
+msgstr "Número de posts por linha"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:518
+msgid "Number of posts per line to show in the posts archive"
+msgstr "Número de posts exibidos por linha no arquivo de posts"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:531
+msgid "Sidebar position"
+msgstr "Posição da sidebar"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:532
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:544
+msgid "Show the theme sidebar in plugin templates"
+msgstr "Exibir o siderar do tema nos templates do plugin"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:536
+msgid "No sidebar"
+msgstr "Sem sidebar"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:537
+msgid "Left sidebar"
+msgstr "Sidebar do lado esquerdo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:538
+msgid "Right sidebar"
+msgstr "Sidebar do lado direito"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:543
+msgid "Show sidebar in"
+msgstr "Exibir a siderar em"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:548
+msgid "Show in all areas"
+msgstr "Exibir em todas áreas"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:549
+msgid "Show only in the archive"
+msgstr "Exibir somente no template de arquivo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:550
+msgid "Show only in the single"
+msgstr "Exibir somente template de single"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:555
+msgid "Number of bootstrap columns for the sidebar area"
+msgstr "Número de colunas do bootstrap para a área da siderar"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:556
+msgid "Set the number of columns for setting the space area for the sidebar"
+msgstr "Defina o numero de colunas para a largura separada para a barra lateral"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:567
+msgid "Featured post"
+msgstr "Post destacado"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:568
+msgid "Show the most recent post as a featured"
+msgstr "Exibir o post mais recente como destaque"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:581
+msgid "Custom fields"
+msgstr "Campos Personalizados"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:596
+msgid "Custom Field {#}"
+msgstr "Campo Personalizado {#}"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:597
+msgid "Add Another Custom Field"
+msgstr "Adicionar Outro Campo Personalizado"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:598
+msgid "Remove Custom Field"
+msgstr "Remover Campo Personalizado"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:607
+msgid "*Title"
+msgstr "*Título"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:608
+msgid "<strong>*Required.</strong> Title label field.</strong>"
+msgstr "<strong>*Obrigatório.</strong> Título do label do campo.</strong>"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:614
+msgid "Description"
+msgstr "Descrição"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:615
+msgid "Field description"
+msgstr "Descrição do campo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:621
+msgid "*ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:622
+msgid ""
+"<strong>*Required.</strong> Dont use spaces or special characters. <br />Example: field_title, in this case "
+"your final fild ID is <strong>post_type_name_field_title</strong>"
+msgstr ""
+"<strong>*Obrigatório.</strong> Não utilize espaços ou caracteres especiais. <br />Exemplo: field_title, "
+"neste caso seu ID final será <strong>post_type_name_field_title</strong>"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:628
+msgid "Type"
+msgstr "Tipo"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:629
+msgid "Field input type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:651
+msgid "Options"
+msgstr "Opções"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:652
+msgid "Itens values for fiedls like, select, radio or multicheck. Insert one item per line"
+msgstr ""
+"Valores dos itens das opções para os campos como, select, radio ou multicheck. Insira um item por linha."
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:658
+msgid "Required"
+msgstr "Requerido"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:659
+msgid "This field is required"
+msgstr "Este campo é de preenchimento obrigatório"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:681
+msgid "Taxonomy settings"
+msgstr "Configurações da taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:692
+msgid "Name"
+msgstr "Nome"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:693
+msgid ""
+"The name is like an ID, dont use spaces or special characteres. You can insert in this field a existing "
+"taxonomy name and ignore the next fields."
+msgstr ""
+"O nome funciona como um ID, não use espaços ou caracteres especiais. Você pode inserir neste campou o nome "
+"de uma taxonomia existente e ignorar os próximos campos."
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:704
+msgid "Singular title"
+msgstr "Título singular"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:705
+msgid "This title is used only in the WordPress panel"
+msgstr "Este titulo é usado somente no painel do WordPress"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:714
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:759
+msgid "Slug"
+msgstr "Slug"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:715
+msgid "The slug is used to set the permalink of this taxonomy"
+msgstr "O slug é usado para definir o link permanente desta taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:727
+msgid "If this taxonomy have descendants like categories, or not, like tags"
+msgstr "Se esta taxonomia possui decendentes como categorias, ou não, como tags"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:734
+msgid "Select the post types for use this taxonomy"
+msgstr "Selecione os posts types para usar esta taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:742
+msgid "Number of posts per page in the post taxonomy template"
+msgstr "Número de posts por página no template de taxonomia"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:758
+msgid "Post type name"
+msgstr "Nome do Post Type"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:13
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:72
+msgid "Posts Alfa Pack"
+msgstr "Postagem Alfa Pack"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:30
+msgid "Settings"
+msgstr "Configurações"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:37
+msgid "Load Slick Slider JS"
+msgstr "Carregar o Slick Slider JS"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:45
+msgid "These settings will change how works the plugin"
+msgstr "Estas configurações definem como o plugin se comporta"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:59
+msgid ""
+"Load Slick slider JS file and CSS file from <a href=\"https://cdnjs.com/\" target=\"_blank\">https://cdnjs."
+"com</a>"
+msgstr ""
+"Carrega os arquivos do Slick slide JS via <a href=\"https://cdnjs.com/\" target=\"_blank\">https://cdnjs."
+"com</a>"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:196
+msgid "Sorry, no post were found."
+msgstr "Desculpe, nenhum posts foi encontrado."
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:134
+msgid "Sorry, no posts were found."
+msgstr "Desculpe, nenhum post foi encontrado."
+
+#~ msgid ""
+#~ "<strong>*Required.</strong> Dont use spaces or special characters. Example: field_title, in this case "
+#~ "your final fild ID is <strong>post_type_name_field_title</strong>"
+#~ msgstr ""
+#~ "<strong>*Obrigatório.</strong> Não utilize espaços ou caracteres especiais. Exemplo: field_title, neste "
+#~ "exemplo seu ID final será <strong>post_type_name_field_title</strong>"
+
+#~ msgid ""
+#~ "<strong>*Required</strong> .Dont use spaces or special characters. Example: field_title, in this case "
+#~ "your final fild ID is <strong>post_type_name_field_title</strong>"
+#~ msgstr "<strong>*Obrigatório</strong> .<strong>post_type_name_field_title</strong>"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid ""
+#~ "Dont use spaces or special characters. Example: field_title, in this case your final fild ID is "
+#~ "<strong>post_type_name_field_title</strong>"
+#~ msgstr ""
+#~ "Não use espaços ou caracteres especiais. Exemplo: field_title, nesse caso o ID final será "
+#~ "<strong>post_type_name_field_title</strong>"
+
+#~ msgid "Add New Post"
+#~ msgstr "Adicionar Novo Post"
+
+#~ msgid "New Post"
+#~ msgstr "Novo Post"
+
+#~ msgid "Edit Post"
+#~ msgstr "Editar Post"
+
+#~ msgid "View Post"
+#~ msgstr "Ver Post"
+
+#~ msgid "All Posts"
+#~ msgstr "Todos Posts"
+
+#~ msgid "Search Posts"
+#~ msgstr "Procurar Posts"
+
+#~ msgid "Parent Posts:"
+#~ msgstr "Ports Parentes:"
+
+#~ msgid "No event found."
+#~ msgstr "Nenhum evento encontrado."
+
+#~ msgid "No posts found in Trash."
+#~ msgstr "Nenhum post encontrado na Lixeira."
+
+#~ msgid "Event information"
+#~ msgstr "Informações do evento"
+
+#~ msgid "Start date"
+#~ msgstr "Data de início"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Section title"
+#~ msgstr "Título da seção"
+
+#~ msgid "Admin menu title"
+#~ msgstr "Título no menu do painel"
+
+#~ msgid "Custom taxonomy"
+#~ msgstr "Taxonomia customizada"
+
+#~ msgid "Permalink archive slug"
+#~ msgstr "Slug para o permalink de arquivo"
+
+#~ msgid "Permalink taxonomy slug"
+#~ msgstr "Slug para o permalink de taxonomia"
+
+#~ msgid "Number of posts per page"
+#~ msgstr "Número de posts por página"
+
+#~ msgid "Number of bootstrap columns for the posts archive"
+#~ msgstr "Número de colunas do bootstrap para o arquivo de pote"
+
+#~ msgid "Title for posts section"
+#~ msgstr "Título da seção dos posts"
+
+#~ msgid "Title for show in the admin menu"
+#~ msgstr "Título para exibição no menu do painel"
+
+#~ msgid "Activate a custom taxonomy for posts"
+#~ msgstr "Ativar taxonomia personalizada para os posts"
+
+#~ msgid ""
+#~ "Slug for posts archive, do not use space or special characters. Example: posts-archive. The default is "
+#~ "<strong>qpwp-posts</strong>.<br />For a cusotm archive template file, create the file <strong>archive-"
+#~ "qpwp_type_post.php</strong>"
+#~ msgstr ""
+#~ "Slug para o arquivo de posts, não utilize espaços ou caracteres especiais. Exemplo: post-archive. O "
+#~ "padrão é <strong>qpwp-posts</strong>.<br />Para um template personalizado, crie o arquivo "
+#~ "<strong>archive-qpwp_type_post.php</strong> em seu tema."
+
+#~ msgid ""
+#~ "Slug for posts taxonomy, do not use space or special characters. Example: post-category. The default is "
+#~ "<strong>qpwp-post-category</strong>.<br />For a cusotm archive template file, create the file "
+#~ "<strong>taxonomy-qpwp_category_post.php</strong>"
+#~ msgstr ""
+#~ "Slug para a taxonomia, não utilize espaços ou caracteres especiais. Exemplo: post-category. O padrão é "
+#~ "<strong>qpwp-post-category</strong>.<br />Para um template personalizado, crie o arquivo "
+#~ "<strong>taxonomy-qpwp_category_post.php</strong> em seu tema."
+
+#~ msgid "Set the number of columns for showing in the posts archive template"
+#~ msgstr "Definição do numero de colunas para exibição dos posts no template de arquivo"
+
+#~ msgid "Show the theme sidebar in specific areas"
+#~ msgstr "Exibir o siderar do tema em áreas específicas"
+
+#~ msgid ""
+#~ "Slug for posts archive, do not use space or special characters. Example: posts-archive. The default is "
+#~ "<strong>qewp-posts</strong>.<br />For a cusotm archive template file, create the file <strong>archive-"
+#~ "qpwp_type_event.php</strong>"
+#~ msgstr ""
+#~ "Slug para o arquivo de posts, não utilize espaços ou caracteres especiais. Exemplo: posts-archive. O "
+#~ "slug padrão é <strong>qewp-posts</strong></br>Para um template de arquivo personalizado, crie o arquivo "
+#~ "<strong>archive-qpwp_type_post.php</strong> em seu tema."
+
+#~ msgid ""
+#~ "Slug for posts taxonomy, do not use space or special characters. Example: event-category. The default is "
+#~ "<strong>qewp-event-category</strong>.<br />For a cusotm archive template file, create the file "
+#~ "<strong>taxonomy-qpwp_category_event.php</strong>"
+#~ msgstr ""
+#~ "Slug para a taxonomia dos posts, não utilize espaços ou caracteres especiais. Exemplo: post-category. O "
+#~ "slug padrão é <strong>qpwp-posts</strong></br>Para um template de taxonomia personalizado, crie o "
+#~ "arquivo <strong>taxonomy-qpwp_category_post.php</strong> em seu tema."
+
+#~ msgid "These settings will change how works the youtube posts plugin"
+#~ msgstr "Estas configurações definem como o plugin irá se comportar."
+
+#~ msgid "Number of posts per page in the event archive"
+#~ msgstr "Número de posts por página no arquivo de posts"
+
+#~ msgid "Cat Galleries"
+#~ msgstr "Cat Galerias"
+
+#~ msgid "Events"
+#~ msgstr "Eventos"
+
+#~ msgid "Event"
+#~ msgstr "Evento"
+
+#~ msgid "Add New Event"
+#~ msgstr "Adicionar Novo Evento"
+
+#~ msgid "New Event"
+#~ msgstr "Novo Evento"
+
+#~ msgid "Edit Event"
+#~ msgstr "Editar Evento"
+
+#~ msgid "View Event"
+#~ msgstr "Visualizar Evento"
+
+#~ msgid "All Events"
+#~ msgstr "Todos Eventos"
+
+#~ msgid "Search Events"
+#~ msgstr "Procurar Eventos"
+
+#~ msgid "Parent Events:"
+#~ msgstr "Eventos Parentes:"
+
+#~ msgid "No events found in Trash."
+#~ msgstr "Nenhum evento encontrado na Lixeira."
+
+#~ msgid "End date"
+#~ msgstr "Data de encerramento"
+
+#~ msgid "Start time"
+#~ msgstr "Horário de início"
+
+#~ msgid "End time"
+#~ msgstr "Horário de encerramento"
+
+#~ msgid "Place name"
+#~ msgstr "Nome do local"
+
+#~ msgid "City"
+#~ msgstr "Cidade"
+
+#~ msgid "State"
+#~ msgstr "Estado"
+
+#~ msgid "Address"
+#~ msgstr "Endereço"
+
+#~ msgid "Map"
+#~ msgstr "Mapa"
+
+#~ msgid "Drag the marker to set the exact location"
+#~ msgstr "Arraste o marcador para definir a localização exata"
+
+#~ msgid "Contact phone"
+#~ msgstr "Telefone para contato"
+
+#~ msgid "Event date"
+#~ msgstr "Data do Evento"
+
+#~ msgid "Location"
+#~ msgstr "Local"
+
+#~ msgid "No event found"
+#~ msgstr "Nenhum evento marcado no momento"
+
+#~ msgid "Previous year"
+#~ msgstr "Ano anterior"
+
+#~ msgid "Next year"
+#~ msgstr "Próximo ano"
+
+#~ msgid "Events Alfa Pack"
+#~ msgstr "Eventos Alfa Pack"
+
+#~ msgid "Number of events per page"
+#~ msgstr "Número de eventos por página"
+
+#~ msgid "Number of events columns"
+#~ msgstr "Número de colunas de eventos"
+
+#~ msgid "Show last published post in the events archive"
+#~ msgstr "Exibir o próximo evento como destaque no arquivo de eventos "
+
+#~ msgid "Title for events section"
+#~ msgstr "Título para a seção de eventos"
+
+#~ msgid "Activate a custom taxonomy for events"
+#~ msgstr "Ativar o uso de categorias para os eventos"
+
+#~ msgid ""
+#~ "Slug for events archive, do not use space or special characters. Example: events-archive. The default is "
+#~ "<strong>qewp-events</strong>.<br />For a cusotm archive template file, create the file <strong>archive-"
+#~ "qewp_type_event.php</strong>"
+#~ msgstr ""
+#~ "Slug para o arquivo de eventos, não use espaços ou caracteres especiais. Exemplo: events-archive. O slug "
+#~ "padrão é <strong>qewp-events</strong>.<br />Para um template de arquivo personalizado, crie um arquivo "
+#~ "com nome <strong>archive-qewp_type_event.php</strong>, na pasta do seu tema."
+
+#~ msgid ""
+#~ "Slug for events taxonomy, do not use space or special characters. Example: event-category. The default "
+#~ "is <strong>qewp-event-category</strong>.<br />For a cusotm archive template file, create the file "
+#~ "<strong>taxonomy-qewp_category_event.php</strong>"
+#~ msgstr ""
+#~ "Slug para o taxonomia de eventos, não use espaços ou caracteres especiais. Exemplo: events-category. O "
+#~ "slug padrão é <strong>qewp-event-category</strong>.<br />Para um template de taxonomia personalizado, "
+#~ "crie um arquivo com nome <strong>taxonomy-qewp_category_event.php</strong>, na pasta do seu tema."
+
+#~ msgid "These settings will change how works the youtube events plugin"
+#~ msgstr "Estas configurações alteram o modo padrão de funcionamento deste plugin."
+
+#~ msgid "Number of events per page in the event archive"
+#~ msgstr "Número de eventos por página no arquivo de eventos"
+
+#~ msgid "Set the number of columns for showing in the events archive template"
+#~ msgstr "Define o número de colunas para exibir os eventos no arquivo de eventos"
+
+#~ msgid "Show the latest event as featured in the events section"
+#~ msgstr "Exibe o próximo evento como destaque na seção de eventos"
+
+#~ msgid "Sorry, no events were found."
+#~ msgstr "Desculpe, eventos encontrado."
+
+#~ msgid "Phone"
+#~ msgstr "Telefone"
+
+#~ msgid "Add to Google Calendar"
+#~ msgstr "Adicionar ao Calendário do Google"
+
+#~ msgid "Sorry, no event were found."
+#~ msgstr "Desculpe, evento não encontrado."
+
+#~ msgid "More details"
+#~ msgstr "Mais detalhes"
+
+#~ msgid "Sorry, no events were found for this month."
+#~ msgstr "Desculpe, mas não foram encontrados eventos para este mês."
+
+#~ msgid "Local"
+#~ msgstr "Localização"
+
+#, fuzzy
+#~ msgid "Website URL"
+#~ msgstr "Website"
+
+#, fuzzy
+#~ msgid "Test Text Email"
+#~ msgstr "Email"
+
+#, fuzzy
+#~ msgid "Test Time"
+#~ msgstr "Horário de início"
+
+#, fuzzy
+#~ msgid "Time zone"
+#~ msgstr "Horário de início"
+
+#, fuzzy
+#~ msgid "Test Date Picker"
+#~ msgstr "Data de início"
+
+#, fuzzy
+#~ msgid "Test Color Picker"
+#~ msgstr "Nenhuma cor selecionada por padrão"
+
+#, fuzzy
+#~ msgid "Test Title Weeeee"
+#~ msgstr "Cor de fundo do título"
+
+#, fuzzy
+#~ msgid "This is a title description"
+#~ msgstr "Cor de fundo do título"
+
+#, fuzzy
+#~ msgid "Test Select"
+#~ msgstr "Selecione um número"
+
+#, fuzzy
+#~ msgid "Option One"
+#~ msgstr "Um"
+
+#, fuzzy
+#~ msgid "Option Two"
+#~ msgstr "Dois"
+
+#, fuzzy
+#~ msgid "Option Three"
+#~ msgstr "Três"
+
+#, fuzzy
+#~ msgid "Test Taxonomy Select"
+#~ msgstr "Selecione um número"
+
+#, fuzzy
+#~ msgid "Check One"
+#~ msgstr "Um"
+
+#, fuzzy
+#~ msgid "Check Two"
+#~ msgstr "Dois"
+
+#, fuzzy
+#~ msgid "Check Three"
+#~ msgstr "Três"
+
+#, fuzzy
+#~ msgid "Upload an image or enter a URL."
+#~ msgstr "Envie sua imagem de Favicon PNG 16x16"
+
+#, fuzzy
+#~ msgid "About Page Metabox"
+#~ msgstr "Página %s"
+
+#, fuzzy
+#~ msgid "Add Another Entry"
+#~ msgstr "Adicionar Novo"
+
+#, fuzzy
+#~ msgid "Remove Entry"
+#~ msgstr "Excluir"
+
+#, fuzzy
+#~ msgid "Facebook URL"
+#~ msgstr "Nome amigável para URL"
+
+#, fuzzy
+#~ msgid "Twitter URL"
+#~ msgstr "Nome amigável para URL"
+
+#, fuzzy
+#~ msgid "Google+ URL"
+#~ msgstr "Nome amigável para URL"
+
+#, fuzzy
+#~ msgid "Linkedin URL"
+#~ msgstr "Nome amigável para URL"
+
+#, fuzzy
+#~ msgid "Theme Options Metabox"
+#~ msgstr "Opções do Tema"
+
+#, fuzzy
+#~ msgid "Remove Embed"
+#~ msgstr "Excluir"
+
+#, fuzzy
+#~ msgid "Add Group"
+#~ msgstr "Adicionar Novo"
+
+#, fuzzy
+#~ msgid "Remove Group"
+#~ msgstr "Excluir"
+
+#, fuzzy
+#~ msgid "Add or Upload File"
+#~ msgstr "Upload"
+
+#, fuzzy
+#~ msgid "Remove Image"
+#~ msgstr "Excluir"
+
+#, fuzzy
+#~ msgid "File:"
+#~ msgstr "Nenhum arquivo selecionado"
+
+#, fuzzy
+#~ msgid "Remove"
+#~ msgstr "Excluir"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "Nenhuma cor selecionada por padrão"
+
+#, fuzzy
+#~ msgid "Select Color"
+#~ msgstr "Selecione a cor predominante do website"
+
+#, fuzzy
+#~ msgid "Current Color"
+#~ msgstr "Nenhuma cor selecionada por padrão"
+
+#, fuzzy
+#~ msgid "Select / Deselect All"
+#~ msgstr "Repetir Tudo"
+
+#, fuzzy
+#~ msgid "Save"
+#~ msgstr "Salvar Opções"
+
+#~ msgid "Event Information"
+#~ msgstr "Informações do Evento"
+
+#~ msgid "Quartel Events"
+#~ msgstr "Quartel Eventos"
+
+#~ msgid "Events page"
+#~ msgstr "Página de eventos"
+
+#~ msgid "Calendar mode"
+#~ msgstr "Modo calendário"
+
+#~ msgid "Archive mode"
+#~ msgstr "Modo arquivo"
+
+#~ msgid "Archive mode slug"
+#~ msgstr "Slug do modo arquivo"
+
+#~ msgid "Do not use a page"
+#~ msgstr "Não use uma página"
+
+#~ msgid "Select the page where you wont show the events"
+#~ msgstr "Selecione a página onde você vai mostrar os eventos"
+
+#~ msgid "The calendar mode only works with a selected page"
+#~ msgstr "O modo de calendário só funciona com uma página selecionada"
+
+#~ msgid ""
+#~ "For archive mode you can create a custom archive model file <strong>archive-qep_type_event.php</strong>"
+#~ msgstr ""
+#~ "Para o modo arquivo você pode criar o modelo de arquivo personalizado <strong>archive-qep_type_event."
+#~ "php</strong>"
+
+#~ msgid ""
+#~ "Slug for archive mode, do not use space or special characters. Example: events-archive. The default is "
+#~ "qep-events."
+#~ msgstr ""
+#~ "Slug para modo arquivo, não use espaços ou caracteres especiais. Exemplo: events-archive. O slug padrão "
+#~ "é qep-events. "
+
+#~ msgid "These settings will change how works the events plugin"
+#~ msgstr "Estas configurações irão mudar a forma de funcionamento do plugin de eventos"
+
+#~ msgid "Friendly name for URL"
+#~ msgstr "Nome amigável para URL"
+
+#, fuzzy
+#~ msgid "Your section description"
+#~ msgstr "Seu endereço de email não será publicado."
+
+#, fuzzy
+#~ msgid "Settings field description"
+#~ msgstr "Configurações"

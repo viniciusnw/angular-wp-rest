@@ -1,0 +1,2500 @@
+/*===================================
+*            BABY BOOMER            *
+* -----------------------------------
+* Este arquivo faz apenas os        *
+* imports dos outros arquivos       *
+* utilizados na estilização do site *
+===================================*/
+/* Utilitários */
+/*=================================
+*            VARIÁVEIS            *
+-----------------------------------
+* 1. Cores
+* 2. Fontes
+* 3. Border Radius
+* 4. Espaçamentos
+* 5. Breakpoints
+=================================*/
+/*================================
+=            1. Cores            =
+================================*/
+/*=====  End of 1. Cores  ======*/
+/*=================================
+=            2. Fontes            =
+=================================*/
+/*----------  Variáveis  ----------*/
+/*
+ * Coloque abaixo o nome das fontes do
+ * Google Fontes e utilizadas e
+ * adicionadas no arquivo config.php.
+ */
+/*----------  Tamanhos  ----------*/
+/*=====  End of 2. Fontes  ======*/
+/*========================================
+=            3. Border Radius            =
+========================================*/
+/*=====  End of 3. Border Radius  ======*/
+/*=======================================
+=            4. Espaçamentos            =
+=======================================*/
+/*=====  End of 4. Espaçamentos  ======*/
+/*======================================
+=            5. Breakpoints            =
+======================================*/
+/*=====  End of 5. Breakpoints  ======*/
+/*=====  End of VARIÁVEIS  ======*/
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+ *
+ * ------------------------------
+ * MIXINS
+ * ------------------------------
+ * 1. Fontes
+ * 2. Transition
+ * 3. Botões
+ * 4. Transform
+ * 5. Sprites
+ * 6. Alerta
+ * 7. Placeholder
+ * 8. Pseudo Mixins =P
+ * 9. Flexbox
+ * ------------------------------
+ *
+ *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+/*=================================
+=            1. Fontes            =
+=================================*/
+/*
+ * Utilize esse mixin para fontes
+ * basta chamar o mixin com o valor da sua espessura,
+ * e a família da fonte, que foi estipulada no
+ * arquivo variables.less
+ */
+/*=====  End of 1. Fontes  ======*/
+/*=====================================
+=            2. Transition            =
+=====================================*/
+/*=====  End of 2. Transition  ======*/
+/*=================================
+=            3. Botões            =
+=================================*/
+/*=====  End of 3. Botões  ======*/
+/*====================================
+=            4. Transform            =
+====================================*/
+/*=====  End of 4. Transform  ======*/
+/*==================================
+=            5. Sprites            =
+==================================*/
+/*=====  End of 5. Sprites  ======*/
+/*=================================
+=            6. Alerta            =
+=================================*/
+/*=====  End of 6. Alerta  ======*/
+/*======================================
+=            7. Placeholder            =
+======================================*/
+/*=====  End of 7. Placeholder  ======*/
+/*===========================================
+=            8. Pseudo Mixins               =
+===========================================*/
+/**
+ * Essa classe alinha o elemento no
+ * centro do container em que está.
+ */
+.align-center {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+/* Disposição de listas */
+.no-list {
+  list-style: none;
+  margin: 0px;
+}
+.list-inline {
+  list-style: none;
+  margin: 0px;
+}
+.list-inline li {
+  display: inline-block;
+}
+.list-line {
+  list-style: none;
+  margin: 0px;
+}
+.list-line li {
+  display: block;
+  width: 100%;
+}
+/*=====  End of 8. Pseudo Mixins  ======*/
+/*==================================
+=            9. Flexbox            =
+==================================*/
+/* Capacita um container a se comportar com flexbox na horizontal. */
+.qwp-flexbox {
+  display: -ms-flexbox;
+  display: flex;
+}
+/* Capacita um container a se comportar como flex na vertical. */
+.qwp-flexbox-inline {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/* Capacita um container com flexbox a crescer dinamicamente num outro container flexbox. */
+.qwp-flexbox-grow {
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+/* Capacita um container com flexbox a não crescer dinamicamente num outro container flexbox.*/
+.qwp-flexbox-grow-none {
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+/* Coloca um elemento com flexbox a ficar no final do container com flexbox. */
+.qwp-flexbox-end {
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+/* Centraliza os elementos verticalmente dentro de um container com flexbox. */
+.qwp-flexbox-center {
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+/* Centraliza os elementos horizontalmente dentro de um container com flexbox. */
+.qwp-flexbox-align-center {
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+}
+/* Alinha os elementos horizontalmente no topo do container com flexbox */
+.qwp-flexbox-align-top {
+  -ms-flex-align: start;
+  -ms-grid-row-align: start;
+  align-items: start;
+}
+/* Estica os elementos verticalmente do topo até o final de um container com flexbox */
+.qwp-flexbox-align-height {
+  -ms-flex-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-items: stretch;
+}
+/* Distribui os elementos de um container com flexbox para que tenham o mesmo espaçamento. */
+.qwp-flexbox-space {
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+/* Capacita um container com flexbox a quebra de linha entre os elementos. */
+.qwp-flexbox-wrap {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+/*=====  End of 9. Flexbox  ======*/
+/* Biblioteca de elementos */
+/*===================================
+*            COMPONENTES            *
+* -----------------------------------
+* 1. Reset
+* 2. Pagination
+* 3. Scrollpanel
+* 4. Fancybox
+* 5. Elementos
+* 6. Botões
+* 7. Texto
+* 8. Search Form
+* 9. Tabs
+* 10. Tabela
+* 11. Depoimento
+* 12. Destaque - Sidebar
+* 13. Redes Sociais
+* 14. Newsletter
+* 15. Slider
+* 16. Nav Pills
+* 17. Archive Loop
+* 18. Single
+* 19. Setinhas
+===================================*/
+/*================================
+=            1. Reset            =
+================================*/
+body {
+  /**
+   * Esse valor faz o body ter o tamanho de 16px para as fontes,
+   * e por exemplo, um valor igual a 1.333rem é o mesmo que 13px.
+   * É simples e fácil de adaptar os tamanhos de fonte agora! =D
+   */
+  font-size: 16px;
+  color: #767676;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+a,
+button {
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+button:hover,
+a:active,
+button:active,
+a:active:hover,
+button:active:hover,
+a:focus,
+button:focus,
+a:focus:hover,
+button:focus:hover {
+  outline: none;
+  text-decoration: none;
+}
+a {
+  color: #EDB500;
+}
+a:hover {
+  color: #ba8e00;
+}
+.qwp-bg-color-primary a {
+  color: #333333;
+}
+* {
+  outline: none;
+}
+::-moz-selection,
+::selection {
+  background-color: #333333;
+  color: #f5f5f5;
+}
+ul,
+ol {
+  padding: 0px;
+  list-style-position: inside;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+/*=====  End of 1. Reset  ======*/
+/*=====================================
+=            2. Pagination            =
+=====================================*/
+.pagination {
+  width: 100%;
+  margin: 0px;
+}
+.pagination > li {
+  float: none;
+  display: inline-block;
+}
+.pagination > li > a,
+.pagination > li > span {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+  margin: 0px;
+  display: inline-block;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:active,
+.pagination > li > span:active,
+.pagination > li > a:active:hover,
+.pagination > li > span:active:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li > a:focus:hover,
+.pagination > li > span:focus:hover {
+  box-shadow: none;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:active,
+.pagination > li > span:active,
+.pagination > li > a:active:hover,
+.pagination > li > span:active:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.pagination > li > a:focus:hover,
+.pagination > li > span:focus:hover {
+  color: #f5f5f5;
+  background-color: #4d4d4d;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover {
+  background-color: #EDB500;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span {
+  border-radius: 0px;
+}
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: 0px;
+}
+.pagination > .disabled > a,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > span,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:hover {
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  opacity: .7;
+}
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus:hover,
+.pagination > .disabled > a:hover:hover,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus:hover,
+.pagination > .disabled > span:hover:hover,
+.pagination > .disabled > a:active,
+.pagination > .disabled > a:focus:active,
+.pagination > .disabled > a:hover:active,
+.pagination > .disabled > span:active,
+.pagination > .disabled > span:focus:active,
+.pagination > .disabled > span:hover:active,
+.pagination > .disabled > a:active:hover,
+.pagination > .disabled > a:focus:active:hover,
+.pagination > .disabled > a:hover:active:hover,
+.pagination > .disabled > span:active:hover,
+.pagination > .disabled > span:focus:active:hover,
+.pagination > .disabled > span:hover:active:hover,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:focus:focus,
+.pagination > .disabled > a:hover:focus,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:focus:focus,
+.pagination > .disabled > span:hover:focus,
+.pagination > .disabled > a:focus:hover,
+.pagination > .disabled > a:focus:focus:hover,
+.pagination > .disabled > a:hover:focus:hover,
+.pagination > .disabled > span:focus:hover,
+.pagination > .disabled > span:focus:focus:hover,
+.pagination > .disabled > span:hover:focus:hover {
+  color: #f5f5f5;
+  background-color: #4d4d4d;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus:hover,
+.pagination > .disabled > a:hover:hover,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus:hover,
+.pagination > .disabled > span:hover:hover,
+.pagination > .disabled > a:active,
+.pagination > .disabled > a:focus:active,
+.pagination > .disabled > a:hover:active,
+.pagination > .disabled > span:active,
+.pagination > .disabled > span:focus:active,
+.pagination > .disabled > span:hover:active,
+.pagination > .disabled > a:active:hover,
+.pagination > .disabled > a:focus:active:hover,
+.pagination > .disabled > a:hover:active:hover,
+.pagination > .disabled > span:active:hover,
+.pagination > .disabled > span:focus:active:hover,
+.pagination > .disabled > span:hover:active:hover,
+.pagination > .disabled > a:focus,
+.pagination > .disabled > a:focus:focus,
+.pagination > .disabled > a:hover:focus,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > span:focus:focus,
+.pagination > .disabled > span:hover:focus,
+.pagination > .disabled > a:focus:hover,
+.pagination > .disabled > a:focus:focus:hover,
+.pagination > .disabled > a:hover:focus:hover,
+.pagination > .disabled > span:focus:hover,
+.pagination > .disabled > span:focus:focus:hover,
+.pagination > .disabled > span:hover:focus:hover {
+  box-shadow: none;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  background-color: #EDB500;
+}
+/*=====  End of 2. Pagination  ======*/
+/*======================================
+=            3. Scrollpanel            =
+======================================*/
+.qwp-scrollpanel {
+  padding-right: 15px;
+  width: 100%;
+  height: 500px;
+}
+.sp-scrollbar {
+  background-color: #EDB500;
+  cursor: pointer;
+  margin: 0px;
+  width: 10px;
+}
+.sp-thumb {
+  background-color: #333333;
+}
+/*=====  End of 3. Scrollpanel  ======*/
+/*=================================
+=            4. Labels            =
+=================================*/
+.label {
+  background-color: #f5f5f5;
+  color: #EDB500;
+  padding: 5px;
+  border-radius: 0px;
+  font-size: 1.111rem;
+}
+.label-primary {
+  background-color: #EDB500;
+  color: #333333;
+}
+.label-primary[href]:hover {
+  background-color: #d4a200;
+  color: #333333;
+}
+.label-secondary {
+  background-color: #333333;
+  color: #EDB500;
+}
+.label-secondary[href]:hover {
+  background-color: #262626;
+  color: #EDB500;
+}
+/*=====  End of 4. Labels  ======*/
+/*====================================
+=            5. Elementos            =
+====================================*/
+/*----------  Pseudo-classes  ----------*/
+[class*="__title"] a {
+  color: #EDB500;
+}
+[class*="__title"] small {
+  opacity: 1;
+  color: inherit;
+}
+[class*="__socials"] {
+  font-size: 1.111rem;
+}
+/*----------  Cores  ----------*/
+.qwp-color-white {
+  color: #fff;
+}
+.qwp-color-black {
+  color: #000;
+}
+.qwp-color-primary {
+  color: #EDB500;
+}
+.qwp-color-primary--dark {
+  color: #ba8e00;
+}
+.qwp-color-primary--light {
+  color: #ffcb21;
+}
+.qwp-color-secondary {
+  color: #333333;
+}
+.qwp-color-secondary--light {
+  color: #4d4d4d;
+}
+.qwp-color-secondary--dark {
+  color: #1a1a1a;
+}
+.qwp-bg-color-primary {
+  background-color: #EDB500;
+}
+.qwp-bg-color-primary .qwp-color-primary,
+.qwp-bg-color-primary .qwp-color-primary--dark,
+.qwp-bg-color-primary .qwp-color-primary--light {
+  color: #333333;
+}
+.qwp-bg-color-primary--dark {
+  background-color: #ba8e00;
+}
+.qwp-bg-color-primary--dark .qwp-color-primary,
+.qwp-bg-color-primary--dark .qwp-color-primary--dark,
+.qwp-bg-color-primary--dark .qwp-color-primary--light {
+  color: #333333;
+}
+.qwp-bg-color-primary--light {
+  background-color: #ffcb21;
+}
+.qwp-bg-color-primary--light .qwp-color-primary,
+.qwp-bg-color-primary--light .qwp-color-primary--dark,
+.qwp-bg-color-primary--light .qwp-color-primary--light {
+  color: #333333;
+}
+.qwp-bg-color-secondary {
+  background-color: #333333;
+}
+.qwp-bg-color-secondary .qwp-color-secondary {
+  color: #EDB500;
+}
+.qwp-bg-color-secondary--light {
+  background-color: #4d4d4d;
+}
+.qwp-bg-color-secondary--light .qwp-color-secondary {
+  color: #EDB500;
+}
+.qwp-bg-color-secondary--dark {
+  background-color: #1a1a1a;
+}
+.qwp-bg-color-secondary--dark .qwp-color-secondary {
+  color: #EDB500;
+}
+.qwp-border-color-primary {
+  border-color: #EDB500;
+}
+.qwp-border-color-secondary {
+  border-color: #333333;
+}
+/*----------  Titles  ----------*/
+h1,
+.qwp-h1 {
+  font-size: 3.666rem;
+}
+h2,
+.qwp-h2 {
+  font-size: 2.777rem;
+}
+h3,
+.qwp-h3 {
+  font-size: 2rem;
+}
+h4,
+.qwp-h4 {
+  font-size: 1.777rem;
+}
+h5,
+.qwp-h5 {
+  font-size: 1.333rem;
+}
+h6,
+.qwp-h6 {
+  font-size: 1.222rem;
+}
+/*=====  End of 5. Elementos  ======*/
+/*=================================
+=            6. Botões            =
+=================================*/
+.btn {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+}
+.btn:hover,
+.btn:active,
+.btn:active:hover,
+.btn:focus,
+.btn:focus:hover {
+  box-shadow: none;
+}
+.btn-default {
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-default:hover,
+.btn-default:active,
+.btn-default:active:hover,
+.btn-default:focus,
+.btn-default:focus:hover {
+  color: #f5f5f5;
+  background-color: #4d4d4d;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-primary {
+  color: #f5f5f5;
+  background-color: #EDB500;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:active:hover,
+.btn-primary:focus,
+.btn-primary:focus:hover {
+  color: #f5f5f5;
+  background-color: #ba8e00;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-secondary {
+  color: #333333;
+  background-color: transparent;
+  border: 2px solid #333333;
+  transition: all 0.2s ease-in-out;
+}
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:active:hover,
+.btn-secondary:focus,
+.btn-secondary:focus:hover {
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 2px solid #333333;
+  transition: all 0.2s ease-in-out;
+}
+.btn-link {
+  border: none;
+}
+.btn-link:hover,
+.btn-link:active,
+.btn-link:active:hover,
+.btn-link:focus,
+.btn-link:focus:hover {
+  color: #333333;
+  background-color: transparent;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-rounded {
+  border-radius: 3px;
+}
+.btn-lg {
+  font-size: 2rem;
+  padding: 30px;
+}
+.btn-md {
+  font-size: 1.444rem;
+  padding: 20px;
+}
+.btn-sm {
+  font-size: 1.444rem;
+  padding: 5px 10px;
+}
+.btn-xs {
+  font-size: 1.111rem;
+  padding: 5px 10px;
+}
+/*=====  End of 6. Botões  ======*/
+/*================================
+=            7. Texto            =
+================================*/
+/*----------  Estilos  ----------*/
+.qwp-font-lg {
+  font-size: 4.5rem;
+}
+.qwp-font-md {
+  font-size: 3rem;
+}
+.qwp-font-sm {
+  font-size: 2rem;
+}
+.qwp-font-xs {
+  font-size: 1.444rem;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*----------  Texto de Post  ----------*/
+.qwp-content {
+  color: #767676;
+  font-size: 1.444rem;
+  line-height: 2.166rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+.qwp-content h1,
+.qwp-content h2,
+.qwp-content h3,
+.qwp-content h4,
+.qwp-content h5,
+.qwp-content h6 {
+  color: #333333;
+}
+.qwp-content a {
+  color: #EDB500;
+}
+.qwp-content a:hover {
+  color: #dcdcdc;
+}
+.qwp-content--light {
+  color: #f5f5f5;
+}
+.qwp-content--dark {
+  color: #333333;
+}
+/*----------  Input  ----------*/
+.qwp-input {
+  background-color: #333333;
+  color: #f5f5f5;
+  border: none;
+  padding: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  transition: all 0.2s ease-in-out;
+}
+.qwp-input:focus {
+  background-color: #808080;
+  color: #EDB500;
+}
+/*=====  End of 7. Texto  ======*/
+/*======================================
+=            8. Search Form            =
+======================================*/
+.qwp-search-form {
+  position: relative;
+}
+.qwp-search-form__container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-items: stretch;
+  /* Chrome/Opera/Safari */
+  /* Firefox 19+ */
+  /* IE 10+ */
+  /* Firefox 18- */
+}
+.qwp-search-form__container ::-webkit-input-placeholder {
+  color: #f5f5f5;
+}
+.qwp-search-form__container ::-moz-placeholder {
+  color: #f5f5f5;
+}
+.qwp-search-form__container :-ms-input-placeholder {
+  color: #f5f5f5;
+}
+.qwp-search-form__container :-moz-placeholder,
+.qwp-search-form__container input:-moz-placeholder {
+  color: #f5f5f5;
+}
+.qwp-search-form__container__label {
+  display: none;
+}
+.qwp-search-form__container__input {
+  background-color: #333333;
+  color: #f5f5f5;
+  border: none;
+  padding: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  transition: all 0.2s ease-in-out;
+}
+.qwp-search-form__container__input:focus {
+  background-color: #808080;
+  color: #EDB500;
+}
+.qwp-search-form__container__submit {
+  width: 50px;
+  background-color: #333333;
+  color: #EDB500;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+.qwp-search-form__container__submit span {
+  display: none;
+}
+/*=====  End of 8. Search Form  ======*/
+/*===============================
+=            9. Tabs            =
+===============================*/
+.qwp-tabs__header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-items: stretch;
+  border-bottom: none;
+}
+.qwp-tabs__header li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  float: none;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.nav-tabs > li > a {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+  margin-right: 0px;
+  text-align: center;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:active:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:focus:hover {
+  box-shadow: none;
+}
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:active:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > li > a:focus:hover {
+  color: #f5f5f5;
+  background-color: #4d4d4d;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  background-color: #EDB500;
+  color: #f5f5f5;
+  border: none;
+}
+.qwp-tabs__body {
+  background-color: #EDB500;
+  padding: 30px;
+  color: #f5f5f5;
+}
+/*=====  End of 9. Tabs  ======*/
+/*==================================
+=            10. Tabela            =
+==================================*/
+.table {
+  font-size: 1.444rem;
+  margin: 0px;
+}
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  border-color: rgba(245, 245, 245, 0.1);
+}
+/*=====  End of 10. Tabela  ======*/
+/*======================================
+=            11. Depoimento            =
+======================================*/
+.qwp-author-blockquote__text {
+  background-color: #767676;
+  color: #f5f5f5;
+  padding: 30px;
+  position: relative;
+}
+.qwp-author-blockquote__text:after {
+  content: "";
+  display: block;
+  height: 0px;
+  width: 0px;
+  border-left: 10px solid #767676;
+  border-top: 10px solid #767676;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  position: absolute;
+  right: 20px;
+  top: 100%;
+}
+.qwp-author-blockquote__footer {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 30px;
+}
+.qwp-author-blockquote__footer__thumbnail {
+  max-width: 50px;
+  margin-right: 15px;
+}
+.qwp-author-blockquote__footer__title {
+  margin: 0px;
+}
+.qwp-author-blockquote__footer__title small {
+  display: block;
+  margin: 5px 0;
+}
+/*=====  End of 11. Depoimento  ======*/
+/*==============================================
+=            12. Destaque - Sidebar            =
+==============================================*/
+.qwp-featured__item {
+  margin: 10px 0;
+  border-bottom: 1px solid #e8e8e8;
+  padding-bottom: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: start;
+  -ms-grid-row-align: start;
+  align-items: start;
+}
+.qwp-featured__item__thumbnail {
+  margin: 0 15px 0 0;
+  max-width: 30%;
+}
+.qwp-featured__item__text {
+  width: 100%;
+}
+/*=====  End of 12. Destaque - Sidebar  ======*/
+/*=========================================
+=            13. Redes Sociais            =
+=========================================*/
+.qwp-social-list {
+  list-style: none;
+  margin: 0px;
+}
+.qwp-social-list li {
+  display: inline-block;
+}
+.qwp-social-list a {
+  background-color: transparent;
+  min-height: 30px;
+  min-width: 30px;
+  padding: 0 5px;
+  text-align: center;
+  line-height: 30px;
+  color: #f5f5f5;
+  font-size: 2rem;
+  display: inline-block;
+}
+.qwp-social-list a:hover {
+  background-color: #333333;
+  color: #EDB500;
+}
+/*=====  End of 13. Redes Sociais  ======*/
+/*======================================
+=            14. Newsletter            =
+======================================*/
+.qnwp-newsletter-form-container {
+  position: relative;
+}
+.qnwp-newsletter-form-container__callback {
+  position: absolute;
+  top: 100%;
+  margin-top: 0px;
+  -webkit-animation: attention 1s infinite;
+  animation: attention 1s infinite;
+}
+@-webkit-keyframes attention {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+@keyframes attention {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 10px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+.qnwp-newsletter-form-container__callback .alert {
+  padding: 0px;
+  border: 0px;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+  color: #333333;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 1.111rem;
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.1);
+}
+.qnwp-newsletter-form-container__callback .alert:after {
+  content: "";
+  display: block;
+  border-top: 5px solid #f5f5f5;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  height: 0px;
+  width: 0px;
+  top: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.qnwp-newsletter-form-container__form__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: stretch;
+  -ms-grid-row-align: stretch;
+  align-items: stretch;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.qnwp-newsletter-form-container__form__flex__label {
+  color: #333333;
+  font-size: 1.444rem;
+  display: inline-block;
+  width: 100%;
+}
+.qnwp-newsletter-form-container__form__flex__input {
+  background-color: #333333;
+  color: #f5f5f5;
+  border: none;
+  padding: 10px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  transition: all 0.2s ease-in-out;
+}
+.qnwp-newsletter-form-container__form__flex__input:focus {
+  background-color: #808080;
+  color: #EDB500;
+}
+.qnwp-newsletter-form-container__form__flex__submit {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  background-color: #EDB500;
+  border: 5px solid #333333;
+  color: #333333;
+}
+.qnwp-newsletter-form-container__form__flex__submit:hover,
+.qnwp-newsletter-form-container__form__flex__submit:active,
+.qnwp-newsletter-form-container__form__flex__submit:active:hover,
+.qnwp-newsletter-form-container__form__flex__submit:focus,
+.qnwp-newsletter-form-container__form__flex__submit:focus:hover {
+  box-shadow: none;
+}
+.qnwp-newsletter-form-container__form__flex__submit:hover {
+  background-color: #333333;
+  color: #EDB500;
+}
+/*=====  End of 14. Newsletter  ======*/
+/*==================================
+=            15. Slider            =
+==================================*/
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+  background-color: transparent;
+  color: #EDB500;
+  border: 3px solid #EDB500;
+  border-radius: 100%;
+}
+.slick-slider .slick-prev:hover,
+.slick-slider .slick-next:hover {
+  background-color: #EDB500;
+  color: #333333;
+}
+.slick-slider i {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.slick-slider .slick-prev {
+  left: 15px;
+}
+.slick-slider .slick-prev i {
+  margin: -2px 0 0 -1px;
+}
+.slick-slider .slick-next {
+  right: 15px;
+}
+.slick-slider .slick-next i {
+  margin: -2px 0 0 2px;
+}
+.slick-slider .slick-dots button {
+  text-indent: -9999px;
+  border: 4px solid #EDB500;
+  background-color: transparent;
+  height: 17px;
+  width: 17px;
+  border-radius: 20px;
+  padding: 0px;
+}
+.slick-slider .slick-dots .slick-active button {
+  background-color: #EDB500;
+}
+/*=====  End of 15. Slider  ======*/
+/*=====================================
+=            16. Nav Pills            =
+=====================================*/
+.nav-pills {
+  list-style: none;
+  margin: 0px;
+}
+.nav-pills li {
+  display: inline-block;
+}
+.nav-pills > li {
+  float: none;
+}
+.nav-pills > li > a {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:active,
+.nav-pills > li > a:active:hover,
+.nav-pills > li > a:focus,
+.nav-pills > li > a:focus:hover {
+  box-shadow: none;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:active,
+.nav-pills > li > a:active:hover,
+.nav-pills > li > a:focus,
+.nav-pills > li > a:focus:hover {
+  color: #f5f5f5;
+  background-color: #4d4d4d;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color: #EDB500;
+}
+.nav-pills > li + li {
+  margin-left: 0px;
+}
+/*=====  End of 16. Nav Pills  ======*/
+/*========================================
+=            17. Archive Loop            =
+========================================*/
+.qwp-post-loop + .qwp-post-loop {
+  margin-top: 30px;
+}
+.qwp-post-loop__header__title {
+  margin-bottom: 0px;
+}
+.qwp-post-loop__header__info {
+  margin: 10px 0;
+}
+/*=====  End of 17. Archive Loop  ======*/
+/*==================================
+=            18. Single            =
+==================================*/
+.qwp-post-single__header__title {
+  color: #333333;
+}
+.qwp-post-single__header__info {
+  list-style: none;
+  margin: 0px;
+  margin: 0 0 15px;
+}
+.qwp-post-single__header__info li {
+  display: inline-block;
+}
+.qwp-component-comments {
+  border-radius: 5px;
+  padding: 30px;
+  border: 2px solid #dedede;
+}
+@media (max-width: 767px) {
+  .qwp-component-comments {
+    padding: 15px;
+  }
+}
+/*=====  End of 18. Single  ======*/
+/*====================================
+=            19. Setinhas            =
+====================================*/
+.qwp-arrow {
+  position: relative;
+}
+.qwp-arrow:before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0px;
+  width: 0px;
+}
+.qwp-arrow--left:before {
+  border-right: 10px solid #EDB500;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  right: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.qwp-arrow--right:before {
+  border-left: 10px solid #EDB500;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.qwp-arrow--top:before {
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid #EDB500;
+  border-right: 10px solid transparent;
+  bottom: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.qwp-arrow--bottom:before {
+  border-left: 10px solid transparent;
+  border-top: 10px solid #EDB500;
+  border-right: 10px solid transparent;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/*=====  End of 19. Setinhas  ======*/
+/*=====  End of COMPONENTES  ======*/
+/*==================================
+*            FORMULÁRIO            *
+------------------------------------
+* 1. Estrutura
+* 1.1. Colunas
+* 2. Campos Normais
+* 3. Checkbox e Radio Buttons
+* 4. Submit
+* 5. Custom Select
+* 6. Mensagem de Erro
+* 7. Mensagem de Feedback
+* 8. Recaptcha
+==================================*/
+/*====================================
+=            1. Estrutura            =
+====================================*/
+.frm_form_field {
+  margin-left: 0px !important;
+}
+.frm_form_fields {
+  margin: 15px 0;
+  display: inline-block;
+  padding-right: 10px;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .frm_form_fields {
+    margin-bottom: 5px !important;
+  }
+}
+.frm_form_fields img,
+.frm_form_fields iframe {
+  border-radius: 3px !important;
+}
+/*----------  1.1 Colunas  ----------*/
+.frm_half {
+  float: left !important;
+  width: 50% !important;
+  padding-left: 5px;
+}
+.frm_third {
+  float: left !important;
+  width: 33% !important;
+  padding-left: 5px;
+}
+.frm_two_thirds {
+  float: left !important;
+  width: 66% !important;
+  padding-left: 5px;
+}
+.frm_fourth {
+  float: left !important;
+  width: 25% !important;
+  padding-left: 5px;
+}
+@media only screen and (max-width: 767px) {
+  .frm_form_field {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+}
+.frm_first {
+  clear: both !important;
+  padding-left: 0px !important;
+}
+/*=====  End of 1. Estrutura  ======*/
+/*=========================================
+=            2. Campos Normais            =
+=========================================*/
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha),
+.form-field-select {
+  margin-bottom: 15px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: text;
+  /* Chrome/Opera/Safari */
+  /* Firefox 19+ */
+  /* IE 10+ */
+  /* Firefox 18- */
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input[type="text"],
+.form-field-select input[type="text"],
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input[type="number"],
+.form-field-select input[type="number"],
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input[type="email"],
+.form-field-select input[type="email"],
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) select,
+.form-field-select select,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) textarea,
+.form-field-select textarea {
+  background: #333333;
+  border: 0px;
+  border-radius: 3px;
+  color: #f5f5f5;
+  font-size: 1.444rem;
+  padding: 5px;
+  box-sizing: border-box;
+  display: block;
+  outline: none;
+  width: 100%;
+  -webkit-writing-mode: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  transition: all 0.2s ease-in-out;
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input[type="text"]:focus,
+.form-field-select input[type="text"]:focus,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input[type="number"]:focus,
+.form-field-select input[type="number"]:focus,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input[type="email"]:focus,
+.form-field-select input[type="email"]:focus,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) select:focus,
+.form-field-select select:focus,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) textarea:focus,
+.form-field-select textarea:focus {
+  background-color: #EDB500;
+  color: #333333;
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) textarea,
+.form-field-select textarea {
+  resize: none;
+  height: 250px;
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) select,
+.form-field-select select {
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) select:focus,
+.form-field-select select:focus,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) select:active,
+.form-field-select select:active,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) select:hover,
+.form-field-select select:hover {
+  text-decoration: none;
+  outline: none;
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) label,
+.form-field-select label {
+  color: #EDB500;
+  font-size: 1.444rem;
+  margin: 5px 0;
+  cursor: text;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) ::-webkit-input-placeholder,
+.form-field-select ::-webkit-input-placeholder {
+  color: #EDB500;
+  /**
+   * Insira aqui os atributos para estilizar o placeholder
+   */
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) ::-moz-placeholder,
+.form-field-select ::-moz-placeholder {
+  color: #EDB500;
+  /**
+   * Insira aqui os atributos para estilizar o placeholder
+   */
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) :-ms-input-placeholder,
+.form-field-select :-ms-input-placeholder {
+  color: #EDB500;
+  /**
+   * Insira aqui os atributos para estilizar o placeholder
+   */
+}
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) :-moz-placeholder,
+.form-field-select :-moz-placeholder,
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha) input:-moz-placeholder,
+.form-field-select input:-moz-placeholder {
+  color: #EDB500;
+  /**
+   * Insira aqui os atributos para estilizar o placeholder
+   */
+}
+/*=====  End of 2. Campos Normais  ======*/
+/*===================================================
+=            3. Checkbox e Radio Buttons            =
+===================================================*/
+.form-field-checkbox,
+.form-field-radio {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.form-field-checkbox label,
+.form-field-radio label {
+  color: #333333;
+  font-size: 1.444rem;
+  margin-right: 5px;
+  cursor: pointer;
+  position: relative;
+}
+.form-field-checkbox .frm_primary_label,
+.form-field-radio .frm_primary_label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  color: #EDB500;
+  overflow: hidden;
+  width: 100%;
+}
+.form-field-checkbox input[type="checkbox"],
+.form-field-radio input[type="checkbox"],
+.form-field-checkbox input[type="radio"],
+.form-field-radio input[type="radio"] {
+  margin-right: 5px;
+  margin-left: 1px;
+  opacity: 1;
+}
+/*=====  End of 3. Checkbox e Radio Buttons  ======*/
+/*=================================
+=            4. Submit            =
+=================================*/
+.frm_submit {
+  margin: 15px;
+}
+.frm_submit input[type="submit"] {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+.frm_submit input[type="submit"]:hover,
+.frm_submit input[type="submit"]:active,
+.frm_submit input[type="submit"]:active:hover,
+.frm_submit input[type="submit"]:focus,
+.frm_submit input[type="submit"]:focus:hover {
+  box-shadow: none;
+}
+.frm_submit input[type="submit"]:hover,
+.frm_submit input[type="submit"]:active,
+.frm_submit input[type="submit"]:active:hover,
+.frm_submit input[type="submit"]:focus,
+.frm_submit input[type="submit"]:focus:hover {
+  color: #f5f5f5;
+  background-color: #4d4d4d;
+  border: 0px;
+  transition: all 0.2s ease-in-out;
+}
+/*=====  End of 4. Submit  ======*/
+/*========================================
+=            5. Custom Select            =
+========================================*/
+.form-field .hasCustomSelect {
+  height: 40px !important;
+  z-index: 1;
+  width: 100% !important;
+}
+.form-field .customSelect {
+  background: #333333;
+  color: #f5f5f5;
+  font-size: 1.444rem;
+  padding: 5px;
+  text-transform: uppercase;
+  border: none;
+  box-sizing: border-box;
+  display: block;
+  outline: none;
+  position: relative;
+  width: 100%;
+  -webkit-writing-mode: none;
+  transition: all 0.2s ease-in-out;
+}
+.form-field .customSelect:after {
+  color: #f5f5f5;
+  content: "+";
+  font-size: 13px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  right: 20px;
+}
+/*=====  End of 5. Custom Select  ======*/
+/*===========================================
+=            6. Mensagem de Erro            =
+===========================================*/
+.frm_error {
+  /**/
+  top: 13px;
+  -webkit-animation: attention 1s infinite;
+  animation: attention 1s infinite;
+  /**/
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  right: 6px;
+  font-size: 2rem;
+  background-color: #EDB500;
+  color: #f5f5f5;
+  border-radius: 3px;
+  padding: 5px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  display: block;
+  position: absolute;
+}
+@-webkit-keyframes attention {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: 13px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+@keyframes attention {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: 13px;
+  }
+  100% {
+    top: 10px;
+  }
+}
+.frm_error:after {
+  border-top: 10px solid #f5f5f5;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100%;
+  height: 0px;
+  width: 0px;
+}
+/*=====  End of 6. Mensagem de Erro  ======*/
+/*===============================================
+=            7. Mensagem de Feedback            =
+===============================================*/
+.frm_message,
+.frm_error_style {
+  color: #f5f5f5;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: #333333;
+  border: 0px;
+  border-radius: 3px;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+}
+.frm_message p,
+.frm_error_style p {
+  margin: 0px;
+}
+/*=====  End of 7. Mensagem de Feedback  ======*/
+/*====================================
+=            8. Recaptcha            =
+====================================*/
+.frm-field-recaptcha {
+  margin-top: 10px;
+  display: inline-block;
+  position: relative;
+  width: auto;
+}
+.frm-field-recaptcha iframe {
+  border-radius: 3px !important;
+}
+/*=====  End of 8. Recaptcha  ======*/
+/*=====  End of FORMULÁRIO  ======*/
+/* Arquivo que contem estilos de todo o site */
+/*==============================
+*            HEADER            *
+==============================*/
+.qwp-header {
+  box-shadow: 0 0 5px rgba(51, 51, 51, 0.1);
+}
+.qwp-header [class*="__toggle--mobile"] {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: 1.444rem;
+  font-family: 'Lato', sans-serif;
+  padding: 10px 20px;
+  color: #333333;
+  background-color: transparent;
+  border: 2px solid #333333;
+  transition: all 0.2s ease-in-out;
+}
+.qwp-header [class*="__toggle--mobile"]:hover,
+.qwp-header [class*="__toggle--mobile"]:active,
+.qwp-header [class*="__toggle--mobile"]:active:hover,
+.qwp-header [class*="__toggle--mobile"]:focus,
+.qwp-header [class*="__toggle--mobile"]:focus:hover {
+  box-shadow: none;
+}
+.qwp-header [class*="__toggle--mobile"]:hover,
+.qwp-header [class*="__toggle--mobile"]:active,
+.qwp-header [class*="__toggle--mobile"]:active:hover,
+.qwp-header [class*="__toggle--mobile"]:focus,
+.qwp-header [class*="__toggle--mobile"]:focus:hover {
+  color: #f5f5f5;
+  background-color: #333333;
+  border: 2px solid #333333;
+  transition: all 0.2s ease-in-out;
+}
+.menu-item-has-children:hover a {
+  background-color: #EDB500;
+  color: #f5f5f5;
+  text-decoration: none;
+}
+.menu-item-has-children:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+  padding: 10px 0 0;
+  margin-top: -10px;
+  min-width: 160px;
+  box-shadow: none;
+}
+.dropdown-menu > li {
+  width: 100%;
+  display: inline-block;
+}
+.dropdown-menu > li > a {
+  background-color: #EDB500;
+  padding: 10px;
+  color: #f5f5f5;
+}
+.dropdown-menu > li > a:hover {
+  background-color: #EDB500;
+  color: #333333;
+  border-color: transparent;
+}
+.dropdown-menu .active > a {
+  background-color: #e3ad00;
+  color: #f5f5f5;
+}
+.dropdown-menu .active > a:hover {
+  background-color: #d4a200;
+  color: #767676;
+}
+.dropdown-menu .menu-item-has-children:hover a {
+  background-color: #d4a200;
+  color: #333333;
+}
+.dropdown-menu .menu-item-has-children {
+  position: relative;
+}
+.dropdown-menu .menu-item-has-children .dropdown-menu {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  display: none;
+}
+.dropdown-menu .menu-item-has-children .dropdown-menu a {
+  background-color: #d4a200;
+  color: #f5f5f5;
+}
+.dropdown-menu .menu-item-has-children .dropdown-menu a:hover {
+  color: #333333;
+}
+.dropdown-menu .menu-item-has-children:hover .dropdown-menu {
+  display: block;
+}
+.qwp-header-mobile {
+  background-color: #EDB500;
+}
+.qwp-header-mobile.menu-open {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.qwp-header-mobile__menu__list {
+  list-style: none;
+  margin: 0px;
+}
+.qwp-header-mobile__menu__list li {
+  display: block;
+  width: 100%;
+}
+.qwp-header-mobile__menu__list li {
+  display: inline-block;
+}
+.qwp-header-mobile__menu__list a {
+  padding: 15px;
+  color: #f5f5f5;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.15);
+}
+.qwp-header-mobile__menu__list a:hover {
+  background-color: #333333;
+  color: #EDB500;
+}
+.qwp-header-mobile__menu__list .dropdown-menu {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  padding-top: 0px;
+  width: 100%;
+}
+.qwp-header-mobile__menu__list .dropdown-menu a {
+  background-color: #d4a200;
+  padding-left: 25px;
+}
+.qwp-header-mobile__menu__list .dropdown-menu .dropdown-menu {
+  position: relative;
+  display: block;
+  left: inherit;
+}
+.qwp-header-mobile__menu__list .dropdown-menu .dropdown-menu a {
+  background-color: #ba8e00;
+  padding-left: 35px;
+}
+.qwp-header-mobile__socials {
+  text-align: center;
+  margin: 30px 0;
+}
+.qwp-header-mobile__socials a {
+  border: none;
+  display: inline-block;
+  padding: 0px;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+}
+/*=====  End of HEADER  ======*/
+/*=================================
+=            HEADER 01            =
+=================================*/
+.qwp-header-01 {
+  padding: 0px;
+}
+.qwp-header-01__top {
+  background-color: #ffcb21;
+  padding: 30px 0;
+}
+.qwp-header-01__bottom {
+  background-color: #EDB500;
+}
+.qwp-header-01__top__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.qwp-header-01__top__flex__right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.qwp-header-01__top__flex__right__bottom .qwp-search-form {
+  width: 100%;
+}
+.qwp-header-01__top__flex__right__top {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+}
+.qwp-header-01__top__flex__right__top__links a {
+  color: #f5f5f5;
+}
+.qwp-header-01-header__bottom__menu__list {
+  list-style: none;
+  margin: 0px;
+  text-align: left;
+}
+.qwp-header-01-header__bottom__menu__list li {
+  display: inline-block;
+}
+.qwp-header-01-header__bottom__menu__list a {
+  background-color: transparent;
+  padding: 15px;
+  display: inline-block;
+  font-size: 1.444rem;
+  color: #f5f5f5;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.qwp-header-01-header__bottom__menu__list a:hover {
+  background-color: rgba(245, 245, 245, 0.15);
+}
+/*=====  End of HEADER 01  ======*/
+/*=================================
+=            HEADER 02            =
+=================================*/
+.qwp-header-02 {
+  background-color: #EDB500;
+  padding: 30px 0;
+}
+.qwp-header-02--search {
+  background-color: transparent;
+  height: auto;
+}
+.qwp-header-02__flex,
+.qwp-header-02__flex__left,
+.qwp-header-02__flex__right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.qwp-header-02__flex__left__logo {
+  max-width: 220px;
+  margin-right: 15px;
+}
+.qwp-header-02__flex__left__menu {
+  text-align: left;
+}
+.qwp-header-02__flex__right__bottom__menu__list {
+  list-style: none;
+  margin: 0px;
+}
+.qwp-header-02__flex__right__bottom__menu__list li {
+  display: inline-block;
+}
+.qwp-header-02__flex__right__bottom__menu__list a {
+  padding: 5px 10px;
+  font-size: 1.444rem;
+  color: #f5f5f5;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.qwp-header-02__flex__right__bottom__menu__list a:hover {
+  border: 2px solid #f5f5f5;
+}
+.qwp-header-02__flex__right__bottom__menu__list .dropdown a:hover {
+  border: 2px solid transparent;
+}
+.qwp-header-02__flex__right__socials {
+  text-align: right;
+  margin-right: 15px;
+}
+.qwp-header-02__flex__right__toggle--search {
+  font-size: 2.555rem;
+  color: #f5f5f5;
+  margin-left: 30px;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 45px;
+  padding: 0px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+.qwp-header-02__flex__right__toggle--search.menu-active {
+  background-color: #f5f5f5;
+  color: #EDB500;
+}
+.qwp-header-02__flex__right__toggle--search:hover {
+  border-color: #f5f5f5;
+}
+/*=====  End of HEADER 02  ======*/
+/*=================================
+=            HEADER 03            =
+=================================*/
+.qwp-header-03__top {
+  background-color: #ffcb21;
+  padding: 10px;
+}
+@media (max-width: 480px) {
+  .qwp-header-03__top {
+    padding: 5px;
+  }
+}
+.qwp-header-03__top__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+@media (max-width: 480px) {
+  .qwp-header-03__top__flex {
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .qwp-header-03__top__flex__left {
+    text-align: center;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .qwp-header-03__top__flex__right {
+    width: 100%;
+  }
+}
+.qwp-header-03__top__flex__right__links a {
+  color: #f5f5f5;
+}
+@media (max-width: 480px) {
+  .qwp-header-03__top__flex__right__links {
+    text-align: center;
+    width: 100%;
+  }
+}
+.qwp-header-03__bottom {
+  background-color: #EDB500;
+  padding: 15px;
+}
+.qwp-header-03__bottom__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.qwp-header-03__bottom__flex__menu__list {
+  list-style: none;
+  margin: 0px;
+}
+.qwp-header-03__bottom__flex__menu__list li {
+  display: inline-block;
+}
+.qwp-header-03__bottom__flex__menu__list a {
+  padding: 5px 10px;
+  font-size: 1.444rem;
+  color: #f5f5f5;
+  border: 2px solid transparent;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.qwp-header-03__bottom__flex__menu__list a:hover {
+  border: 2px solid #f5f5f5;
+}
+.qwp-header-03__bottom__flex__menu__list .dropdown a:hover {
+  border: 2px solid transparent;
+}
+/*=====  End of HEADER 03  ======*/
+/*==================================
+=            HEADER TOP            =
+==================================*/
+.qwp-top {
+  background-color: #dcdcdc;
+  padding: 30px 0;
+  width: 100%;
+  display: inline-block;
+}
+.qwp-top__flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 767px) {
+  .qwp-top__flex {
+    display: block;
+    text-align: center;
+  }
+}
+.qwp-top__flex__title {
+  margin: 0px;
+}
+@media (max-width: 767px) {
+  .qwp-top__flex__breadcrumb {
+    display: none;
+  }
+}
+/*=====  End of HEADER TOP  ======*/
+/*=====================================
+=            HEADER TOP 01            =
+=====================================*/
+.qwp-top-01 .qwp-top__flex {
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+/*=====  End of HEADER TOP 01  ======*/
+/*==============================
+=            TOP 02            =
+==============================*/
+.qwp-top-02 {
+  padding: 60px 0;
+}
+.qwp-top-02 .qwp-top__flex {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.qwp-top-02 .qwp-top__flex__title,
+.qwp-top-02 .qwp-top__flex__breadcrumb {
+  text-align: center;
+  width: 100%;
+}
+/*=====  End of TOP 02  ======*/
+/*====================================
+*            HEADER - TOP            *
+--------------------------------------
+* 1. Breadcrumb
+====================================*/
+/*=====================================
+=            1. Breadcrumb            =
+=====================================*/
+.breadcrumb {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0px;
+}
+.breadcrumb .trail-browse {
+  display: none;
+}
+.breadcrumb .trail-items {
+  list-style: none;
+  margin: 0px;
+}
+.breadcrumb .trail-items li {
+  display: inline-block;
+}
+.breadcrumb .trail-item,
+.breadcrumb .trail-item a {
+  color: #767676;
+  font-size: 1.444rem;
+  position: relative;
+}
+.breadcrumb .trail-item a {
+  color: #EDB500;
+}
+.breadcrumb .trail-item a:hover {
+  text-decoration: underline !important;
+}
+.breadcrumb .trail-item + .trail-item {
+  margin-left: 18px;
+  padding-left: 0px;
+}
+.breadcrumb .trail-item + .trail-item:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f0da";
+  color: #767676;
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 3px;
+}
+.breadcrumb .trail-end {
+  display: initial;
+}
+/*=====  End of 1. Breadcrumb  ======*/
+/*=====  End of HEADER - TOP  ======*/
+/*==============================
+*            FOOTER            *
+==============================*/
+.qwp-footer ul[class*="__list"] {
+  list-style: none;
+  margin: 0px;
+}
+.qwp-footer ul[class*="__list"] li {
+  display: block;
+  width: 100%;
+}
+.qwp-footer ul[class*="__list"]:not([class*="__phones"]) > li {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  -ms-grid-row-align: start;
+  align-items: start;
+  margin-bottom: 10px;
+}
+.qwp-footer ul[class*="__list"] i {
+  height: 30px;
+  min-width: 30px;
+  width: 30px;
+  background-color: #333333;
+  color: #f5f5f5;
+  line-height: 30px;
+  margin-right: 15px;
+  text-align: center;
+}
+.qwp-footer ul[class*="__list"] i + * {
+  color: #333333;
+}
+/*===============================
+=            Quartel            =
+===============================*/
+@font-face {
+  font-family: "quartel-design";
+  src: url("../fonts/q/quartel-design.eot");
+  src: url("../fonts/q/quartel-design.eot?#iefix") format("embedded-opentype"), url("../fonts/q/quartel-design.woff") format("woff"), url("../fonts/q/quartel-design.ttf") format("truetype"), url("../fonts/q/quartel-design.svg#quartel-design") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before {
+  font-family: "quartel-design" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="qicon-"]:before,
+[class*=" qicon-"]:before {
+  font-family: "quartel-design" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.qicon-quartel:before {
+  content: "\61";
+}
+/*=====  End of Quartel  ======*/
+/*==============================
+=            Bottom            =
+==============================*/
+.qwp-footer__bottom {
+  background-color: rgba(51, 51, 51, 0.1);
+  padding: 30px 0;
+}
+.qwp-footer__bottom__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-grid-row-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.qwp-footer__bottom [class*="__copyright"] {
+  color: #333333;
+  font-size: 1.444rem;
+}
+.qwp-footer__bottom [class*="__copyright"] p {
+  margin: 0px;
+}
+.qwp-footer__bottom [class*="__quartel"] i:before {
+  font-size: 3rem;
+}
+/*=====  End of Bottom  ======*/
+/*=====  End of FOOTER  ======*/
+/*=================================
+=            FOOTER 01            =
+=================================*/
+.qwp-footer-01__top {
+  padding: 30px 0;
+}
+.qwp-footer-01__top__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  -ms-grid-row-align: start;
+  align-items: start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.qwp-footer-01__top__flex > [class*="__box--"] {
+  width: 33.33333333333%;
+}
+.qwp-footer-01__top__flex > [class*="__box--"] + [class*="__box--"] {
+  padding-left: 15px;
+}
+@media (max-width: 767px) {
+  .qwp-footer-01__top__flex {
+    display: inline-block;
+  }
+  .qwp-footer-01__top__flex > [class*="__box--"] {
+    width: 100%;
+  }
+  .qwp-footer-01__top__flex > [class*="__box--"] + [class*="__box--"] {
+    padding-left: 0px;
+  }
+}
+/*=====  End of FOOTER 01  ======*/
+/*=================================
+=            FOOTER 02            =
+=================================*/
+.qwp-footer-02__top {
+  padding: 60px 0;
+}
+.qwp-footer-02__bottom {
+  padding: 10px 0;
+}
+.qwp-footer-02__top__flex {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.qwp-footer-02__top {
+  padding: 60px 0;
+}
+@media (max-width: 767px) {
+  .qwp-footer-02__top {
+    padding: 10px 0;
+  }
+}
+.qwp-footer-02__top__newsletter {
+  width: 40%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  .qwp-footer-02__top__newsletter {
+    width: 100%;
+  }
+}
+.qwp-footer-02__top__newsletter [class*="__label"] {
+  font-size: 2rem;
+  text-align: center;
+  color: #f5f5f5;
+  margin: 30px 0;
+}
+.qwp-footer-02__top__newsletter [class*="__input"] {
+  background-color: #f5f5f5;
+}
+.qwp-footer-02__top__newsletter [class*="__input"]:focus {
+  background-color: rgba(245, 245, 245, 0.8);
+}
+.qwp-footer-02__top__newsletter [class*="__submit"] {
+  border-color: #f5f5f5;
+  color: #f5f5f5;
+}
+.qwp-footer-02__top__socials {
+  text-align: center;
+  margin: 30px 0;
+}
+.qwp-footer-02__top__socials li {
+  margin: 10px;
+}
+.qwp-footer-02__top__socials a {
+  background-color: transparent;
+}
+.qwp-footer-02__top__socials a:hover {
+  background-color: transparent;
+  color: #333333;
+}
+.qwp-footer-02__top__socials i {
+  font-size: 3rem;
+}
+/*=====  End of FOOTER 02  ======*/
+/*=================================
+=            FOOTER 03            =
+=================================*/
+.qwp-footer-03__top {
+  padding: 30px 0;
+}
+.qwp-footer-03__top h4 {
+  color: #333333;
+}
+.qwp-footer-03__top__links {
+  list-style: none;
+  margin: 0px;
+  font-size: 1.333rem;
+}
+.qwp-footer-03__top__links li {
+  display: block;
+  width: 100%;
+}
+.qwp-footer-03__top__links a {
+  padding: 5px 0;
+  display: inline-block;
+}
+.qwp-footer-03__top__links a:hover {
+  text-decoration: underline;
+}
+/*=====  End of FOOTER 03  ======*/
+/*===============================
+=            SIDEBAR            =
+===============================*/
+.qwp-sidebar .panel {
+  margin-bottom: 30px;
+  border-radius: 0px;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+}
+.qwp-sidebar .panel-default {
+  background-color: transparent;
+}
+.qwp-sidebar .panel-body {
+  border: 1px solid #dcdcdc;
+  border-bottom-width: 3px;
+  padding: 0px;
+  border-radius: 3px;
+}
+.qwp-sidebar .panel-body > h4 {
+  border-left: 3px solid #EDB500;
+  padding: 10px;
+  color: #EDB500;
+  text-transform: uppercase;
+}
+.qwp-sidebar .panel-body > ul {
+  list-style: none;
+  margin: 0px;
+}
+.qwp-sidebar .panel-body > ul li {
+  display: block;
+  width: 100%;
+}
+.qwp-sidebar li {
+  width: 100%;
+}
+.qwp-sidebar a {
+  border-bottom: 1px solid #dcdcdc;
+  color: #333333;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+}
+.qwp-sidebar a:hover {
+  border-bottom-color: #333333;
+  color: #EDB500;
+}
+/*=====  End of SIDEBAR  ======*/
+/*==================================
+*            STYLESHEET            *
+* ----------------------------------
+*
+==================================*/
+/*=====  End of STYLESHEET  ======*/
+/*==================================
+*            RESPONSIVE            *
+------------------------------------
+* 1. Responsive
+* 2. Mobile First
+==================================*/
+/*=====================================
+=            1. Responsive            =
+=====================================*/
+/*=====  End of 1. Responsive  ======*/
+/*=======================================
+=            2. Mobile First            =
+=======================================*/
+/*=====  End of 2. Mobile First  ======*/
+/*=====  End of RESPONSIVE  ======*/
+/*=====  End of BABY BOOMER  ======*/

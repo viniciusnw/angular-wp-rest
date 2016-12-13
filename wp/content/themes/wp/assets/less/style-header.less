@@ -1,0 +1,456 @@
+/*==============================
+*            HEADER            *
+==============================*/
+
+.qwp-header {
+  box-shadow: 0 0 5px fade(@color-0, 10%);
+
+  [class*="__toggle--mobile"] {
+    .btn;
+    .btn-secondary;
+  }
+}
+
+.menu-item-has-children:hover {
+  a {
+    background-color: @color-2;
+    color: @color-1;
+    text-decoration: none;
+  }
+
+  .dropdown-menu {
+    display: block;
+  }
+}
+
+.dropdown-menu {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+  padding: 10px 0 0;
+  margin-top: -10px;
+  min-width: 160px;
+  box-shadow: none;
+
+  &>li {
+    width: 100%;
+    display: inline-block;
+  }
+
+  &>li>a {
+    background-color: @color-2;
+    padding: 10px;
+    color: @color-1;
+
+    &:hover {
+      background-color: @color-2;
+      color: @color-0;
+      border-color: transparent;
+    }
+  }
+
+  .active>a {
+    background-color: darken(@color-2, 2%);
+    color: @color-1;
+
+    &:hover {
+      background-color: darken(@color-2, 5%);
+      color: @color-3;
+    }
+  }
+
+  .menu-item-has-children:hover a {
+    background-color: darken(@color-2, 5%);
+    color: @color-0;
+  }
+}
+
+.dropdown-menu .menu-item-has-children {
+  position: relative;
+
+  .dropdown-menu {
+    position: absolute;
+    left: 100%;
+    top: 0;
+    display: none;
+
+    a {
+      background-color: darken(@color-2, 5%);
+      color: @color-1;
+
+      &:hover {
+        color: @color-0;
+      }
+    }
+  }
+
+  &:hover .dropdown-menu {
+    display: block;
+  }
+}
+
+// Mobile
+.qwp-header-mobile {
+  background-color: @color-2;
+
+  &.menu-open {
+    box-shadow: 0 0 10px fade(black, 10%);
+  }
+}
+
+.qwp-header-mobile__menu__list {
+  .list-line;
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    padding: @padding-default;
+    color: @color-1;
+    border-bottom: 1px solid fade(@color-1, 15%);
+
+    &:hover {
+      background-color: @color-0;
+      color: @color-2;
+    }
+  }
+
+  .dropdown-menu {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+
+    a {
+      background-color: darken(@color-2, 5%);
+      padding-left: 25px;
+    }
+
+    .dropdown-menu {
+      position: relative;
+      display: block;
+      left: inherit;
+
+      a {
+        background-color: darken(@color-2, 10%);
+        padding-left: 35px;
+      }
+    }
+  }
+}
+
+.qwp-header-mobile__socials {
+  text-align: center;
+  margin: @margin-md 0;
+
+  a {
+    border: none;
+    display: inline-block;
+    padding: 0px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+  }
+}
+
+/*=====  End of HEADER  ======*/
+
+/*=================================
+=            HEADER 01            =
+=================================*/
+
+.qwp-header-01 {
+  padding: 0px;
+  &__top {
+    background-color: lighten(@color-2, 10%);
+    padding: @padding-md 0;
+  }
+  &__bottom {
+    background-color: @color-2;
+    // margin-bottom: @margin-md;
+  }
+}
+
+.qwp-header-01__top__flex {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-space;
+}
+
+.qwp-header-01__top__flex__left {
+  &__logo {}
+}
+
+.qwp-header-01__top__flex__right {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-wrap;
+  .qwp-flexbox-end;
+
+  &__bottom {
+    .qwp-search-form {
+      width: 100%;
+    }
+
+    &__menu {}
+  }
+
+  &__toggle--mobile {}
+}
+
+.qwp-header-01__top__flex__right__top {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-end;
+  width: 100%;
+
+  &__socials {}
+  &__links {
+    a {
+      color: @color-1;
+    }
+  }
+}
+
+.qwp-header-01-header__bottom__menu__list {
+  .list-inline;
+  text-align: left;
+  a {
+    background-color: transparent;
+    padding: @padding-default;
+    display: inline-block;
+    font-size: @size-xs;
+    color: @color-1;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      background-color: fade(@color-1, 15%);
+    }
+  }
+}
+
+/*=====  End of HEADER 01  ======*/
+
+/*=================================
+=            HEADER 02            =
+=================================*/
+
+.qwp-header-02 {
+  // margin-bottom: @margin-md;
+  background-color: @color-2;
+  padding: @padding-md 0;
+}
+.qwp-header-02--search {
+  background-color: transparent;
+  height: auto;
+}
+.qwp-header-02__flex,
+.qwp-header-02__flex__left,
+.qwp-header-02__flex__right {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-space;
+}
+.qwp-header-02__flex__left__logo {
+  max-width: 220px;
+  margin-right: @margin-default;
+}
+.qwp-header-02__flex__left__menu {
+  text-align: left;
+}
+.qwp-header-02__flex__right__bottom__menu__list {
+  .list-inline;
+  a {
+    padding: @padding-xs @padding-sm;
+    font-size: @size-xs;
+    color: @color-1;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      border: 2px solid @color-1;
+    }
+  }
+
+  .dropdown a:hover {
+    border: 2px solid transparent;
+  }
+}
+.qwp-header-02__flex__right {}
+.qwp-header-02__flex__right__socials {
+  text-align: right;
+  margin-right: @margin-default;
+}
+.qwp-header-02__flex__right__toggle--search {
+  font-size: 2.555rem;
+  color: @color-1;
+  margin-left: @margin-md;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 45px;
+  padding: 0px;
+  background-color: transparent;
+  border: 2px solid transparent;
+  .transition();
+  &.menu-active {
+    background-color: @color-1;
+    color: @color-2;
+  }
+  &:hover {
+    border-color: @color-1;
+  }
+}
+.qwp-header-02__flex__right__toggle--mobile {}
+
+/*=====  End of HEADER 02  ======*/
+
+/*=================================
+=            HEADER 03            =
+=================================*/
+
+.qwp-header-03 {
+  // margin-bottom: @margin-md;
+}
+.qwp-header-03__top {
+  background-color: lighten(@color-2, 10%);
+  padding: @padding-sm;
+  @media (max-width: @max-xs) {
+    padding: @padding-xs;
+  }
+}
+.qwp-header-03__top__flex {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-space;
+
+  @media (max-width: @max-xs) {
+    .qwp-flexbox-center;
+    .qwp-flexbox-wrap;
+  }
+}
+.qwp-header-03__top__flex__left {
+  @media (max-width: @max-xs) {
+    text-align: center;
+    width: 100%;
+  }
+}
+.qwp-header-03__top__flex__right {
+  @media (max-width: @max-xs) {
+    width: 100%;
+  }
+}
+.qwp-header-03__top__flex__right__links {
+  a {
+    color: @color-1;
+  }
+  @media (max-width: @max-xs) {
+    text-align: center;
+    width: 100%;
+  }
+}
+.qwp-header-03__bottom {
+  background-color: @color-2;
+  padding: @padding-default;
+}
+.qwp-header-03__bottom__flex {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-space;
+}
+.qwp-header-03__bottom__flex__logo {}
+.qwp-header-03__bottom__flex__menu {}
+.qwp-header-03__bottom__flex__menu__list {
+  .list-inline;
+  a {
+    padding: @padding-xs @padding-sm;
+    font-size: @size-xs;
+    color: @color-1;
+    border: 2px solid transparent;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    &:hover {
+      border: 2px solid @color-1;
+    }
+  }
+
+  .dropdown a:hover {
+    border: 2px solid transparent;
+  }
+}
+.qwp-header-03__bottom__flex__search {}
+.qwp-header-03__bottom__flex__toggle--mobile {}
+
+/*=====  End of HEADER 03  ======*/
+
+/*==================================
+=            HEADER TOP            =
+==================================*/
+
+.qwp-top {
+  background-color: darken(@color-1, 10%);
+  padding: @padding-md 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.qwp-top__flex {
+  .qwp-flexbox;
+
+  @media (max-width: @max-sm) {
+    display: block;
+    text-align: center;
+  }
+}
+.qwp-top__flex__title {
+  margin: 0px;
+}
+.qwp-top__flex__breadcrumb {
+  @media (max-width: @max-sm) {
+    display: none;
+  }
+}
+
+/*=====  End of HEADER TOP  ======*/
+
+/*=====================================
+=            HEADER TOP 01            =
+=====================================*/
+
+.qwp-top-01 {
+  .qwp-top__flex {
+    .qwp-flexbox-align-center;
+    .qwp-flexbox-space;
+  }
+}
+
+/*=====  End of HEADER TOP 01  ======*/
+
+/*==============================
+=            TOP 02            =
+==============================*/
+
+.qwp-top-02 {
+  padding: @padding-lg 0;
+  .qwp-top__flex {
+    .qwp-flexbox-wrap;
+    .qwp-flexbox-align-center;
+    .qwp-flexbox-center;
+  }
+
+  .qwp-top__flex__title,
+  .qwp-top__flex__breadcrumb {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/*=====  End of TOP 02  ======*/
+
+

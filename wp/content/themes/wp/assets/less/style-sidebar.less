@@ -1,0 +1,54 @@
+/*===============================
+=            SIDEBAR            =
+===============================*/
+
+.qwp-sidebar {
+  .panel {
+    margin-bottom: @margin-md;
+    border-radius: @rounded-none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  .panel-default {
+    background-color: transparent;
+  }
+
+  .panel-body {
+    border: 1px solid darken(@color-1, 10%);
+    border-bottom-width: 3px;
+    padding: 0px;
+    border-radius: @rounded-xs;
+
+    &>h4 {
+      border-left: 3px solid @color-2;
+      padding: @padding-sm;
+      color: @color-2;
+      text-transform: uppercase;
+    }
+
+    &>ul {
+      .list-line;
+    }
+  }
+
+  li {
+    width: 100%;
+  }
+
+  a {
+    border-bottom: 1px solid darken(@color-1, 10%);
+    color: @color-0;
+    display: inline-block;
+    padding: @padding-sm;
+    width: 100%;
+
+    &:hover {
+      border-bottom-color: @color-0;
+      color: @color-2;
+    }
+  }
+}
+
+/*=====  End of SIDEBAR  ======*/

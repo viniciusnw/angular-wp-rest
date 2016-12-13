@@ -1,0 +1,332 @@
+/*==================================
+*            FORMULÁRIO            *
+------------------------------------
+* 1. Estrutura
+* 1.1. Colunas
+* 2. Campos Normais
+* 3. Checkbox e Radio Buttons
+* 4. Submit
+* 5. Custom Select
+* 6. Mensagem de Erro
+* 7. Mensagem de Feedback
+* 8. Recaptcha
+==================================*/
+
+/*====================================
+=            1. Estrutura            =
+====================================*/
+
+.frm_form_field {
+  margin-left: 0px !important;
+}
+
+.frm_form_fields {
+  margin: @margin-default 0;
+  display: inline-block;
+  padding-right: 10px;
+  width: 100%;
+
+  @media (max-width: @max-sm) {
+    margin-bottom: @margin-xs !important;
+  }
+
+  img,
+  iframe {
+    border-radius: @rounded-xs !important;
+  }
+}
+
+/*----------  1.1 Colunas  ----------*/
+
+.frm_half {
+  float: left !important;
+  width: 50% !important;
+  padding-left: 5px;
+}
+
+.frm_third {
+  float: left !important;
+  width: 33% !important;
+  padding-left: 5px;
+}
+
+.frm_two_thirds {
+  float: left !important;
+  width: 66% !important;
+  padding-left: 5px;
+}
+
+.frm_fourth {
+  float: left !important;
+  width: 25% !important;
+  padding-left: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .frm_form_field {
+    width: 100% !important;
+    padding: 0px !important;
+  }
+}
+
+.frm_first {
+  clear: both !important;
+  padding-left: 0px !important;
+}
+
+/*=====  End of 1. Estrutura  ======*/
+
+/*=========================================
+=            2. Campos Normais            =
+=========================================*/
+
+.form-field:not(.form-field-checkbox):not(.form-field-radio):not(.frm-field-recaptcha),
+.form-field-select {
+  margin-bottom: @margin-default;
+
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  cursor: text;
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"],
+  select,
+  textarea {
+    background: @color-0;
+    border: 0px;
+    border-radius: @rounded-xs;
+    color: @color-1;
+    font-size: @size-xs;
+    padding: @padding-xs;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    width: 100%;
+    -webkit-writing-mode: none;
+    .font( @font-1, 400 );
+    .transition();
+
+    &:focus {
+      background-color: @color-2;
+      color: @color-0;
+    }
+  }
+
+  textarea {
+    resize: none;
+    height: 250px;
+  }
+
+  select {
+    cursor: pointer;
+    -webkit-appearance: none;
+
+    &:focus,
+    &:active,
+    &:hover {
+      text-decoration: none;
+      outline: none;
+    }
+  }
+
+  label {
+    color: @color-2;
+    font-size: @size-xs;
+    margin: 5px 0;
+    cursor: text;
+
+    .font( @font-1, 400 );
+  }
+
+  .placeholder(@color-2, @placeholder-ruleset);
+}
+
+// Placeholder
+@placeholder-ruleset: {
+
+  /**
+   * Insira aqui os atributos para estilizar o placeholder
+   */
+
+};
+
+/*=====  End of 2. Campos Normais  ======*/
+
+/*===================================================
+=            3. Checkbox e Radio Buttons            =
+===================================================*/
+
+.form-field-checkbox,
+.form-field-radio {
+  display: block;
+  position: relative;
+  width: 100%;
+
+  label {
+    color: @color-0;
+    font-size: @size-xs;
+    margin-right: @margin-xs;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .frm_primary_label {
+    .font( @font-2, 400 );
+    color: @color-2;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  input[type="checkbox"],
+  input[type="radio"] {
+    margin-right: @margin-xs;
+    margin-left: 1px;
+    opacity: 1;
+  }
+}
+
+/*=====  End of 3. Checkbox e Radio Buttons  ======*/
+
+/*=================================
+=            4. Submit            =
+=================================*/
+
+.frm_submit {
+  margin: @margin-default;
+
+  input[type="submit"] {
+    .btn;
+    .btn-default;
+  }
+}
+
+/*=====  End of 4. Submit  ======*/
+
+/*========================================
+=            5. Custom Select            =
+========================================*/
+
+.form-field {
+  .hasCustomSelect {
+    height: 40px !important;
+    z-index: 1;
+    width: 100% !important;
+  }
+
+  .customSelect {
+    background: @color-0;
+    color: @color-1;
+    font-size: @size-xs;
+    padding: @padding-xs;
+    text-transform: uppercase;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+    position: relative;
+    width: 100%;
+    -webkit-writing-mode: none;
+    .transition();
+
+    // Arrow
+    &:after {
+      color: @color-1;
+      content: "+";
+      font-size: 13px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      margin-top: -13px;
+      right: 20px;
+    }
+  }
+}
+
+/*=====  End of 5. Custom Select  ======*/
+
+/*===========================================
+=            6. Mensagem de Erro            =
+===========================================*/
+
+.frm_error {
+  /**/
+  @top: 13px;
+  top: @top;
+  .attention( @top, 10px, 1s );
+  /**/
+  .font( @font-1, 400 );
+  right: 6px;
+  font-size: @size-sm;
+  background-color: @color-2;
+  color: @color-1;
+  border-radius: @rounded-xs;
+  padding: @padding-xs;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 3px fade(black, 10%);
+  display: block;
+  position: absolute;
+
+  &:after {
+    border-top: 10px solid @color-1;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 100%;
+    height: 0px;
+    width: 0px;
+  }
+}
+
+/*=====  End of 6. Mensagem de Erro  ======*/
+
+/*===============================================
+=            7. Mensagem de Feedback            =
+===============================================*/
+
+.frm_message,
+.frm_error_style {
+  color: @color-1;
+  font-size: @size-sm;
+  text-transform: uppercase;
+  background-color: @color-0;
+  border: 0px;
+  border-radius: @rounded-xs;
+  margin: @margin-sm;
+  padding: @padding-sm;
+  overflow: hidden;
+  width: 100%;
+
+  .font( @font-1, 400 );
+
+  p {
+    margin: 0px;
+  }
+}
+
+/*=====  End of 7. Mensagem de Feedback  ======*/
+
+/*====================================
+=            8. Recaptcha            =
+====================================*/
+
+.frm-field-recaptcha {
+  margin-top: @margin-sm;
+  display: inline-block;
+  position: relative;
+  width: auto;
+
+  iframe {
+    border-radius: @rounded-xs !important;
+  }
+}
+
+/*=====  End of 8. Recaptcha  ======*/
+
+/*=====  End of FORMULÁRIO  ======*/

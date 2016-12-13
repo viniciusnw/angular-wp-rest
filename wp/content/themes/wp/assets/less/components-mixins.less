@@ -1,0 +1,263 @@
+/*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+ *
+ * ------------------------------
+ * MIXINS
+ * ------------------------------
+ * 1. Fontes
+ * 2. Transition
+ * 3. Botões
+ * 4. Transform
+ * 5. Sprites
+ * 6. Alerta
+ * 7. Placeholder
+ * 8. Pseudo Mixins =P
+ * 9. Flexbox
+ * ------------------------------
+ *
+ *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*/
+
+/*=================================
+=            1. Fontes            =
+=================================*/
+
+/*
+ * Utilize esse mixin para fontes
+ * basta chamar o mixin com o valor da sua espessura,
+ * e a família da fonte, que foi estipulada no
+ * arquivo variables.less
+ */
+.font(@family, @weight) {
+  font-family: @family;
+  font-weight: @weight;
+  font-style: normal;
+  -moz-osx-font-smoothing: antialiased;
+   -webkit-font-smoothing: antialiased;
+}
+
+/*=====  End of 1. Fontes  ======*/
+
+/*=====================================
+=            2. Transition            =
+=====================================*/
+
+.transition( @transition: all .2s ease-in-out ) {
+  transition: @transition;
+}
+
+/*=====  End of 2. Transition  ======*/
+
+/*=================================
+=            3. Botões            =
+=================================*/
+
+.button( @color, @bg-color, @border: 0px ) {
+  color: @color;
+  background-color: @bg-color;
+  border: @border;
+
+  .transition();
+}
+
+/*=====  End of 3. Botões  ======*/
+
+/*====================================
+=            4. Transform            =
+====================================*/
+
+.transform(@transform) {
+  -webkit-transform: @transform;
+          transform: @transform;
+}
+
+/*=====  End of 4. Transform  ======*/
+
+/*==================================
+=            5. Sprites            =
+==================================*/
+
+.sprite(@x, @y, @height, @width) {
+  background-image: url("@{images}/sprites.png");
+  background-position: @x @y;
+  height: @height;
+  width: @width;
+}
+
+/*=====  End of 5. Sprites  ======*/
+
+/*=================================
+=            6. Alerta            =
+=================================*/
+
+.attention( @start, @end, @time ) {
+  -webkit-animation: attention @time infinite;
+          animation: attention @time infinite;
+
+  @-webkit-keyframes attention {
+    0% { top: @end; }
+    50% { top: @start; }
+    100% { top: @end; }
+  }
+
+  @keyframes attention {
+    0% { top: @end; }
+    50% { top: @start; }
+    100% { top: @end; }
+  }
+}
+
+/*=====  End of 6. Alerta  ======*/
+
+/*======================================
+=            7. Placeholder            =
+======================================*/
+
+.placeholder(@color, @ruleset: {}) {
+
+  /* Chrome/Opera/Safari */
+  ::-webkit-input-placeholder {
+    color: @color;
+    @ruleset();
+  }
+
+  /* Firefox 19+ */
+  ::-moz-placeholder {
+    color: @color;
+    @ruleset();
+  }
+
+  /* IE 10+ */
+  :-ms-input-placeholder {
+    color: @color;
+    @ruleset();
+  }
+
+  /* Firefox 18- */
+  :-moz-placeholder,
+  input:-moz-placeholder {
+    color: @color;
+    @ruleset();
+  }
+}
+
+/*=====  End of 7. Placeholder  ======*/
+
+/*===========================================
+=            8. Pseudo Mixins               =
+===========================================*/
+
+/**
+ * Essa classe alinha o elemento no
+ * centro do container em que está.
+ */
+
+.align-center {
+  display: block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  .transform(translateX(-50%) translateY(-50%));
+}
+
+/* Disposição de listas */
+
+// Reseta a lista
+.no-list {
+  list-style: none;
+  margin: 0px;
+}
+
+// Lista os itens numa linha
+.list-inline {
+  .no-list;
+
+  li {
+    display: inline-block;
+  }
+}
+
+// Lista os elementos um em cada linha
+.list-line {
+  .no-list;
+
+  li {
+    display: block;
+    width: 100%;
+  }
+}
+
+/*=====  End of 8. Pseudo Mixins  ======*/
+
+/*==================================
+=            9. Flexbox            =
+==================================*/
+
+/* Capacita um container a se comportar com flexbox na horizontal. */
+.qwp-flexbox {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* Capacita um container a se comportar como flex na vertical. */
+.qwp-flexbox-inline {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+/* Capacita um container com flexbox a crescer dinamicamente num outro container flexbox. */
+.qwp-flexbox-grow {
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+
+/* Capacita um container com flexbox a não crescer dinamicamente num outro container flexbox.*/
+.qwp-flexbox-grow-none {
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+}
+
+/* Coloca um elemento com flexbox a ficar no final do container com flexbox. */
+.qwp-flexbox-end {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+
+/* Centraliza os elementos verticalmente dentro de um container com flexbox. */
+.qwp-flexbox-center {
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+/* Centraliza os elementos horizontalmente dentro de um container com flexbox. */
+.qwp-flexbox-align-center {
+  -ms-flex-align: center;
+      -ms-grid-row-align: center;
+      align-items: center;
+}
+
+/* Alinha os elementos horizontalmente no topo do container com flexbox */
+.qwp-flexbox-align-top {
+  -ms-flex-align: start;
+      -ms-grid-row-align: start;
+      align-items: start;
+}
+
+/* Estica os elementos verticalmente do topo até o final de um container com flexbox */
+.qwp-flexbox-align-height {
+  -ms-flex-align: stretch;
+      -ms-grid-row-align: stretch;
+      align-items: stretch;
+}
+
+/* Distribui os elementos de um container com flexbox para que tenham o mesmo espaçamento. */
+.qwp-flexbox-space {
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+
+/* Capacita um container com flexbox a quebra de linha entre os elementos. */
+.qwp-flexbox-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+/*=====  End of 9. Flexbox  ======*/

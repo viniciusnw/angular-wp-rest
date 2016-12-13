@@ -1,0 +1,68 @@
+/*====================================
+*            HEADER - TOP            *
+--------------------------------------
+* 1. Breadcrumb
+====================================*/
+
+/*=====================================
+=            1. Breadcrumb            =
+=====================================*/
+
+.breadcrumb {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0px;
+
+  // Título
+  .trail-browse {
+    display: none;
+  }
+
+  // Lista dos itens
+  .trail-items  {
+    .list-inline;
+  }
+
+  .trail-item,
+  .trail-item a {
+    color: @color-3;
+    font-size: @size-xs;
+    position: relative;
+  }
+
+  .trail-item {
+
+    // Links
+    a {
+      color: @color-2;
+      &:hover {
+        text-decoration: underline !important;
+      }
+    }
+
+    // Item ao lado
+    & + .trail-item {
+      margin-left: 18px;
+      padding-left: 0px;
+
+      // Separador
+      &:before {
+        .fa;
+        content: "\f0da";
+        color: @color-3;
+        display: block;
+        position: absolute;
+        right: 100%;
+        top: 3px;
+      }
+    }
+  }
+
+  .trail-end {
+    display: initial;
+  }
+}
+
+/*=====  End of 1. Breadcrumb  ======*/
+
+/*=====  End of HEADER - TOP  ======*/

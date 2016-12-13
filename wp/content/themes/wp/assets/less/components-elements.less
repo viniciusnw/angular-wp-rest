@@ -1,0 +1,1008 @@
+/*===================================
+*            COMPONENTES            *
+* -----------------------------------
+* 1. Reset
+* 2. Pagination
+* 3. Scrollpanel
+* 4. Fancybox
+* 5. Elementos
+* 6. Botões
+* 7. Texto
+* 8. Search Form
+* 9. Tabs
+* 10. Tabela
+* 11. Depoimento
+* 12. Destaque - Sidebar
+* 13. Redes Sociais
+* 14. Newsletter
+* 15. Slider
+* 16. Nav Pills
+* 17. Archive Loop
+* 18. Single
+* 19. Setinhas
+===================================*/
+
+/*================================
+=            1. Reset            =
+================================*/
+
+body {
+  /**
+   * Esse valor faz o body ter o tamanho de 16px para as fontes,
+   * e por exemplo, um valor igual a 1.333rem é o mesmo que 13px.
+   * É simples e fácil de adaptar os tamanhos de fonte agora! =D
+   */
+  font-size: 16px;
+  color: @color-3;
+  .font( @font-1, 400 );
+}
+
+a, button {
+  .transition();
+
+  &:hover, &:active, &:active:hover, &:focus, &:focus:hover {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+a {
+  .qwp-color-primary;
+  &:hover {
+    .qwp-color-primary--dark;
+  }
+}
+
+.qwp-bg-color-primary a {
+  .qwp-color-secondary;
+}
+
+* { outline: none; }
+
+::-moz-selection,
+::selection {
+  background-color: @color-0;
+  color: @color-1;
+}
+
+// Diretório de onde as imagens se encontram
+@images: "../img";
+
+// Listas
+ul, ol {
+  padding: 0px;
+  list-style-position: inside;
+}
+
+// Titles
+h1, h2, h3, h4, h5, h6 {
+  .font( @font-2, 700 );
+}
+
+/*=====  End of 1. Reset  ======*/
+
+/*=====================================
+=            2. Pagination            =
+=====================================*/
+
+.pagination {
+  width: 100%;
+  margin: 0px;
+
+  &>li {
+    float: none;
+    display: inline-block;
+  }
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  .btn;
+  .btn-default;
+  margin: 0px;
+  display: inline-block;
+
+  &:hover {
+    background-color: @color-2;
+  }
+}
+
+.pagination>li:first-child>a,
+.pagination>li:first-child>span {
+  border-radius: 0px;
+}
+
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
+  border-radius: 0px;
+}
+
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+  .btn-default;
+  .btn;
+  opacity: .7;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: @color-2;
+}
+
+/*=====  End of 2. Pagination  ======*/
+
+/*======================================
+=            3. Scrollpanel            =
+======================================*/
+
+// Box
+.qwp-scrollpanel {
+  padding-right: @padding-default;
+  width: 100%;
+  height: 500px;
+}
+
+// Barra de Rolagem
+.sp-scrollbar {
+  background-color: @color-2;
+  cursor: pointer;
+  margin: 0px;
+  width: 10px;
+}
+
+.sp-thumb {
+  background-color: @color-0;
+}
+
+// Active
+.sp-scrollbar.active .sp-thumb {}
+
+/*=====  End of 3. Scrollpanel  ======*/
+
+/*=================================
+=            4. Labels            =
+=================================*/
+
+.label {
+  background-color: @color-1;
+  color: @color-2;
+  padding: @padding-xs;
+  border-radius: 0px;
+  font-size: @size-tn;
+}
+
+.label-primary {
+  background-color: @color-2;
+  color: @color-0;
+
+  &[href]:hover {
+    background-color: darken(@color-2, 5%);
+    color: @color-0;
+  }
+}
+
+.label-secondary {
+  background-color: @color-0;
+  color: @color-2;
+
+  &[href]:hover {
+    background-color: darken(@color-0, 5%);
+    color: @color-2;
+  }
+}
+
+/*=====  End of 4. Labels  ======*/
+
+/*====================================
+=            5. Elementos            =
+====================================*/
+
+/*----------  Pseudo-classes  ----------*/
+
+// Seleciona classes que têm sufixo '__title'
+[class*="__title"] {
+  a {
+    color: @color-2;
+  }
+  small {
+    opacity: 1;
+    color: inherit;
+  }
+}
+
+// Redes Sociais
+[class*="__socials"] {
+  font-size: @size-tn;
+}
+
+/*----------  Cores  ----------*/
+
+.qwp-color-white {
+  color: #fff;
+}
+
+.qwp-color-black {
+  color: #000;
+}
+
+.qwp-color-primary {
+  color: @color-2;
+}
+
+.qwp-color-primary--dark {
+  color: darken(@color-2, 10%)
+}
+
+.qwp-color-primary--light {
+  color: lighten(@color-2, 10%);
+}
+
+.qwp-color-secondary {
+  color: @color-0;
+}
+
+.qwp-color-secondary--light {
+  color: lighten(@color-0, 10%);
+}
+
+.qwp-color-secondary--dark {
+  color: darken(@color-0, 10%);
+}
+
+.qwp-bg-color-primary {
+  background-color: @color-2;
+
+  .qwp-color-primary,
+  .qwp-color-primary--dark,
+  .qwp-color-primary--light {
+    .qwp-color-secondary;
+  }
+}
+
+.qwp-bg-color-primary--dark {
+  background-color: darken(@color-2, 10%);
+
+  .qwp-color-primary,
+  .qwp-color-primary--dark,
+  .qwp-color-primary--light {
+    .qwp-color-secondary;
+  }
+}
+
+.qwp-bg-color-primary--light {
+  background-color: lighten(@color-2, 10%);
+
+  .qwp-color-primary,
+  .qwp-color-primary--dark,
+  .qwp-color-primary--light {
+    .qwp-color-secondary;
+  }
+}
+
+.qwp-bg-color-secondary {
+  background-color: @color-0;
+
+  .qwp-color-secondary {
+    .qwp-color-primary;
+  }
+}
+
+.qwp-bg-color-secondary--light {
+  background-color: lighten(@color-0, 10%);
+
+  .qwp-color-secondary {
+    .qwp-color-primary;
+  }
+}
+
+.qwp-bg-color-secondary--dark {
+  background-color: darken(@color-0, 10%);
+
+  .qwp-color-secondary {
+    .qwp-color-primary;
+  }
+}
+
+.qwp-border-color-primary {
+  border-color: @color-2;
+}
+
+.qwp-border-color-secondary {
+  border-color: @color-0;
+}
+
+/*----------  Titles  ----------*/
+
+h1,
+.qwp-h1 {
+  font-size: 3.666rem;
+}
+
+h2,
+.qwp-h2 {
+  font-size: 2.777rem;
+}
+
+h3,
+.qwp-h3 {
+  font-size: 2rem;
+}
+
+h4,
+.qwp-h4 {
+  font-size: 1.777rem;
+}
+
+h5,
+.qwp-h5 {
+  font-size: 1.333rem;
+}
+
+h6,
+.qwp-h6 {
+  font-size: 1.222rem;
+}
+
+/*=====  End of 5. Elementos  ======*/
+
+/*=================================
+=            6. Botões            =
+=================================*/
+
+// Default
+.btn {
+  box-shadow: none;
+  border-radius: 0px;
+  font-size: @size-xs;
+  font-family: @font-1;
+  padding: @padding-sm @padding-sm*2;
+
+  &:hover, &:active, &:active:hover, &:focus, &:focus:hover {
+    box-shadow: none;
+  }
+}
+
+// Estilizados
+.btn-default {
+  .button( @color: @color-1, @bg-color: @color-0, @border: 0px );
+  &:hover, &:active, &:active:hover, &:focus, &:focus:hover {
+    .button( @color-1, lighten(@color-0, 10%), 0px );
+  }
+}
+
+.btn-primary {
+  .button( @color: @color-1, @bg-color: @color-2, @border: 0px );
+  &:hover, &:active, &:active:hover, &:focus, &:focus:hover {
+    .button( @color-1, darken(@color-2, 10%), 0px );
+  }
+}
+
+.btn-secondary {
+  .button( @color: @color-0, @bg-color: transparent, @border: 2px solid @color-0 );
+  &:hover, &:active, &:active:hover, &:focus, &:focus:hover {
+    .button( @color-1, @color-0, 2px solid @color-0 );
+  }
+}
+
+.btn-link {
+  border: none;
+  &:hover, &:active, &:active:hover, &:focus, &:focus:hover {
+    .button( @color-0, transparent, 0px );
+  }
+}
+
+// Com borda arredondada
+.btn-rounded {
+  border-radius: 3px;
+}
+
+// Tamanhos
+.btn-lg {
+  font-size: @size-sm;
+  padding: 30px;
+}
+
+.btn-md {
+  font-size: @size-xs;
+  padding: 20px;
+}
+
+.btn-sm {
+  font-size: @size-xs;
+  padding: @padding-xs @padding-xs*2;
+}
+
+.btn-xs {
+  font-size: @size-tn;
+  padding: @padding-xs @padding-xs*2;
+}
+
+/*=====  End of 6. Botões  ======*/
+
+/*================================
+=            7. Texto            =
+================================*/
+
+/*----------  Estilos  ----------*/
+
+.qwp-font-lg { font-size: @size-lg; }
+.qwp-font-md { font-size: @size-md; }
+.qwp-font-sm { font-size: @size-sm; }
+.qwp-font-xs { font-size: @size-xs; }
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*----------  Texto de Post  ----------*/
+
+.qwp-content {
+  color: @color-3;
+  font-size: @size-xs;
+  line-height: @size-xs * 1.5;
+
+  .font( @font-1, 400 );
+
+  h1, h2, h3, h4, h5, h6 {
+    color: @color-0;
+  }
+
+  a {
+    color: @color-2;
+
+    &:hover {
+      color: darken(@color-1, 10%);
+    }
+  }
+}
+
+.qwp-content--light {
+  color: @color-1;
+}
+
+.qwp-content--dark {
+  color: @color-0;
+}
+
+/*----------  Input  ----------*/
+
+.qwp-input {
+  background-color: @color-0;
+  color: @color-1;
+  border: none;
+  padding: @padding-sm;
+
+  .qwp-flexbox;
+  .qwp-flexbox-grow;
+  .transition();
+
+  &:focus {
+    background-color: lighten(@color-0, 30%);
+    color: @color-2;
+  }
+}
+
+/*=====  End of 7. Texto  ======*/
+
+/*======================================
+=            8. Search Form            =
+======================================*/
+
+.qwp-search-form {
+  position: relative;
+}
+
+.qwp-search-form__container {
+  .qwp-flexbox;
+  .qwp-flexbox-space;
+  .qwp-flexbox-align-height;
+  .placeholder(@color-1);
+}
+
+.qwp-search-form__container__label {
+  display: none;
+}
+
+.qwp-search-form__container__input {
+  .qwp-input;
+}
+
+.qwp-search-form__container__submit {
+  width: 50px;
+  background-color: @color-0;
+  color: @color-2;
+  font-size: 20px;
+  border: none;
+  padding: @padding-sm;
+
+  span {
+    display: none;
+  }
+}
+
+/*=====  End of 8. Search Form  ======*/
+
+/*===============================
+=            9. Tabs            =
+===============================*/
+
+.qwp-tabs {}
+
+// Tabs
+.qwp-tabs__header {
+  .qwp-flexbox;
+  .qwp-flexbox-space;
+  .qwp-flexbox-align-height;
+  border-bottom: none;
+
+  li {
+    .qwp-flexbox;
+    .qwp-flexbox-grow;
+    float: none;
+    border-radius: 0px;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.nav-tabs>li>a {
+  .btn;
+  .btn-default;
+  width: 100%;
+  margin-right: 0px;
+  text-align: center;
+}
+
+// Active
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  background-color: @color-2;
+  color: @color-1;
+  border: none;
+}
+
+// Corpo
+.qwp-tabs__body {
+  background-color: @color-2;
+  padding: @padding-md;
+  color: @color-1;
+}
+
+/*=====  End of 9. Tabs  ======*/
+
+/*==================================
+=            10. Tabela            =
+==================================*/
+
+.table {
+  font-size: @size-xs;
+  margin: 0px;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+  border-color: fade(@color-1, 10%);
+}
+
+/*=====  End of 10. Tabela  ======*/
+
+/*======================================
+=            11. Depoimento            =
+======================================*/
+
+.qwp-author-blockquote {}
+
+.qwp-author-blockquote__text {
+  background-color: @color-3;
+  color: @color-1;
+  padding: @padding-md;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    height: 0px;
+    width: 0px;
+    border-left: 10px solid @color-3;
+    border-top: 10px solid @color-3;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    right: 20px;
+    top: 100%;
+  }
+}
+
+.qwp-author-blockquote__footer {
+  .qwp-flexbox;
+  .qwp-flexbox-align-center;
+  .qwp-flexbox-center;
+  padding: @padding-md;
+}
+
+.qwp-author-blockquote__footer__thumbnail {
+  max-width: 50px;
+  margin-right: @margin-default;
+}
+
+.qwp-author-blockquote__footer__title {
+  margin: 0px;
+  small {
+    display: block;
+    margin: @margin-xs 0;
+  }
+}
+
+/*=====  End of 11. Depoimento  ======*/
+
+/*==============================================
+=            12. Destaque - Sidebar            =
+==============================================*/
+
+.qwp-featured {}
+.qwp-featured__title {}
+
+.qwp-featured__item {
+  margin: @margin-sm 0;
+  border-bottom: 1px solid darken(@color-1, 5%);
+  padding-bottom: @padding-sm;
+
+  .qwp-flexbox;
+  .qwp-flexbox-space;
+  .qwp-flexbox-align-top;
+}
+
+.qwp-featured__item__thumbnail {
+  margin: 0 @margin-default 0 0;
+  max-width: 30%;
+}
+
+.qwp-featured__item__text {
+  width: 100%;
+}
+
+.qwp-featured__item__text__date {}
+.qwp-featured__item__text__title {}
+
+/*=====  End of 12. Destaque - Sidebar  ======*/
+
+/*=========================================
+=            13. Redes Sociais            =
+=========================================*/
+
+.qwp-social-list {
+  .list-inline;
+
+  a {
+    background-color: transparent;
+    min-height: 30px;
+    min-width: 30px;
+    padding: 0 @padding-xs;
+    text-align: center;
+    line-height: 30px;
+    color: @color-1;
+    font-size: 2rem;
+    display: inline-block;
+  }
+
+  a:hover {
+    background-color: @color-0;
+    color: @color-2;
+  }
+}
+
+/*=====  End of 13. Redes Sociais  ======*/
+
+/*======================================
+=            14. Newsletter            =
+======================================*/
+
+.qnwp-newsletter-form-container {
+  position: relative;
+
+  &__form {}
+
+  .spinner {}
+
+  &__callback {
+    position: absolute;
+    top: 100%;
+    margin-top: 0px;
+    -webkit-animation: attention 1s infinite;
+            animation: attention 1s infinite;
+
+    @-webkit-keyframes attention {
+      0% { margin-top: 0px; }
+      50% { margin-top: 10px; }
+      100% { margin-top: 0px; }
+    }
+
+    @keyframes attention {
+      0% { margin-top: 0px; }
+      50% { margin-top: 10px; }
+      100% { margin-top: 0px; }
+    }
+
+    .alert {
+      padding: 0px;
+      border: 0px;
+      background-color: @color-1;
+      padding: @padding-xs @padding-xs*2;
+      color: @color-0;
+      text-transform: uppercase;
+      position: relative;
+      font-size: @size-tn;
+      box-shadow: 0 0 5px fade(@color-0, 10%);
+
+      &:after {
+        content: "";
+        display: block;
+        border-top: 5px solid @color-1;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        position: absolute;
+        height: 0px;
+        width: 0px;
+        top: 100%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.qnwp-newsletter-form-container__form__flex {
+  .qwp-flexbox;
+  .qwp-flexbox-align-height;
+  .qwp-flexbox-space;
+  .qwp-flexbox-wrap;
+}
+.qnwp-newsletter-form-container__form__flex__label {
+  color: @color-0;
+  font-size: @size-xs;
+  display: inline-block;
+  width: 100%;
+}
+.qnwp-newsletter-form-container__form__flex__input {
+  .qwp-input;
+}
+
+.qnwp-newsletter-form-container__form__flex__submit {
+  .btn;
+  background-color: @color-2;
+  border: 5px solid @color-0;
+  color: @color-0;
+
+  &:hover {
+    background-color: @color-0;
+    color: @color-2;
+  }
+}
+
+/*=====  End of 14. Newsletter  ======*/
+
+/*==================================
+=            15. Slider            =
+==================================*/
+
+.slick-slider {
+
+  .slick-prev,
+  .slick-next {
+    background-color: transparent;
+    color: @color-2;
+    border: 3px solid @color-2;
+    border-radius: 100%;
+
+    &:hover {
+      background-color: @color-2;
+      color: @color-0;
+    }
+  }
+
+  i {
+    .align-center;
+  }
+
+  .slick-prev {
+    left: @margin-default;
+
+    i {
+      margin: -2px 0 0 -1px;
+    }
+  }
+
+  .slick-next {
+    right: @margin-default;
+
+    i {
+      margin: -2px 0 0 2px;
+    }
+  }
+
+  // Bullets
+  .slick-dots {
+    button {
+      text-indent: -9999px;
+      border: 4px solid @color-2;
+      background-color: transparent;
+      height: 17px;
+      width: 17px;
+      border-radius: 20px;
+      padding: 0px;
+    }
+
+    .slick-active button {
+      background-color: @color-2;
+    }
+  }
+}
+
+/*=====  End of 15. Slider  ======*/
+
+/*=====================================
+=            16. Nav Pills            =
+=====================================*/
+
+.nav-pills {
+  .list-inline;
+}
+.nav-pills>li {
+  float: none;
+}
+.nav-pills>li>a {
+  .btn;
+  .btn-default;
+}
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: @color-2;
+}
+.nav-pills>li+li {
+  margin-left: 0px;
+}
+
+/*=====  End of 16. Nav Pills  ======*/
+
+/*========================================
+=            17. Archive Loop            =
+========================================*/
+
+.qwp-post-loop {
+  & + .qwp-post-loop {
+    margin-top: @margin-md;
+  }
+
+  &__header {
+    &__title {
+      margin-bottom: 0px;
+    }
+  }
+
+  &__content {}
+
+  .btn {}
+}
+
+.qwp-post-loop__header__info {
+  margin: @margin-sm 0;
+
+  &__date {
+    time {}
+  }
+  &__comments {
+    a {}
+  }
+}
+
+/*=====  End of 17. Archive Loop  ======*/
+
+/*==================================
+=            18. Single            =
+==================================*/
+
+.qwp-post-single {
+  &__header {
+    &__title {
+      color: @color-0;
+    }
+
+    &__info {
+      .list-inline;
+      margin: 0 0 @margin-default;
+
+      &__date {}
+      &__comments {}
+    }
+  }
+
+  &__content {}
+}
+
+.qwp-component-comments {
+  border-radius: 5px;
+  padding: 30px;
+  border: 2px solid #dedede;
+
+  @media (max-width: 767px) {
+    padding: 15px;
+  }
+}
+
+/*=====  End of 18. Single  ======*/
+
+/*====================================
+=            19. Setinhas            =
+====================================*/
+
+.qwp-arrow {
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 0px;
+    width: 0px;
+  }
+
+  &--left:before {
+    border-right: 10px solid @color-2;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: 100%;
+    top: 50%;
+    .transform(translateY(-50%));
+  }
+
+  &--right:before {
+    border-left: 10px solid @color-2;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    left: 100%;
+    top: 50%;
+    .transform(translateY(-50%));
+  }
+
+  &--top:before {
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid @color-2;
+    border-right: 10px solid transparent;
+    bottom: 100%;
+    left: 50%;
+    .transform(translateX(-50%));
+  }
+
+  &--bottom:before {
+    border-left: 10px solid transparent;
+    border-top: 10px solid @color-2;
+    border-right: 10px solid transparent;
+    top: 100%;
+    left: 50%;
+    .transform(translateX(-50%));
+  }
+}
+
+/*=====  End of 19. Setinhas  ======*/
+
+/*=====  End of COMPONENTES  ======*/

@@ -1,0 +1,498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posts Delta Pack\n"
+"POT-Creation-Date: 2015-08-04 09:20-0300\n"
+"PO-Revision-Date: 2016-07-04 10:15-0300\n"
+"Last-Translator: Quartel Design <suporte@quarteldesign.com>\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_x\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/testes-alfa-pack/content/plugins/posts-delta-pack\n"
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/custom-fields-register.php:51
+msgid "Additional information"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:220
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:99
+msgid "No comments yet"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:220
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:99
+msgid "1 comment"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:220
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:99
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:220
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:146
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:99
+msgid "Comments are off for this post"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:258
+msgid "<i class=\"glyphicon glyphicon-chevron-left\"></i>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:259
+msgid "<i class=\"glyphicon glyphicon-chevron-right\"></i>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:304
+msgid "First"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:307
+msgid "previous"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:322
+msgid "next"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/functions.php:326
+msgid "Last"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:83
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:100
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:138
+msgid "Add New"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:84
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:85
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:86
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:87
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:88
+#, php-format
+msgid "All posts in %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:89
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:90
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:91
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/post-types-register.php:92
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:49
+msgid "Posts"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:96
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:98
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:99
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:716
+msgid "Post Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:97
+msgid "Post Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:101
+msgid "Add New Post Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:102
+msgid "New Post Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:103
+msgid "Edit Post Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:104
+msgid "View Post Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:105
+msgid "Posts Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:106
+msgid "Search Posts Types"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:107
+msgid "Parent Posts Types:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:108
+msgid "No post type found."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:109
+msgid "No posts types found in Trash."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:134
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:136
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:137
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:143
+msgid "Taxonomies"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:135
+msgid "Taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:139
+msgid "Add New Taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:140
+msgid "New Taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:141
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:142
+msgid "View Taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:144
+msgid "Search Taxonomies"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:145
+msgid "Parent Taxonomies:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:146
+msgid "No taxonomy found."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:147
+msgid "No taxonomies found in Trash."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:369
+msgid "Post Type settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:380
+msgid "Post Type name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:392
+msgid "Post Type singular name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:399
+msgid "Post type slug"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:416
+msgid "Post type menu dashicon class"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:417
+msgid ""
+"Set the class of menu <a href=\"https://developer.wordpress.org/resource/dashicons\" target=\"_blank"
+"\">dashicon</a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:424
+msgid "Has archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:425
+msgid "Mark if this post type has archive for show posts in front end"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:431
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:709
+msgid "Hierarchical"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:432
+msgid "Mark if this post type is hierarchical like a page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:438
+msgid "Post type supports"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:443
+msgid "Editor"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:444
+msgid "Author"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:445
+msgid "Thumbnail"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:446
+msgid "Excerpt"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:447
+msgid "Trackbacks"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:448
+msgid "Custom Fields"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:449
+msgid "Comments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:450
+msgid "Revisions"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:451
+msgid "Page Attributes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:452
+msgid "Post Formats"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:472
+msgid "Default taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:473
+msgid "Set the default taxonomy for this post type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:488
+msgid "Template settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:499
+msgid "Posts per page"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:500
+msgid "Number of posts per page in the post archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:507
+msgid "Number of posts per line"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:508
+msgid "Number of posts per line to show in the posts archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:521
+msgid "Sidebar position"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:522
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:534
+msgid "Show the theme sidebar in plugin templates"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:526
+msgid "No sidebar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:527
+msgid "Left sidebar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:528
+msgid "Right sidebar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:533
+msgid "Show sidebar in"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:538
+msgid "Show in all areas"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:539
+msgid "Show only in the archive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:540
+msgid "Show only in the single"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:545
+msgid "Number of bootstrap columns for the sidebar area"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:546
+msgid "Set the number of columns for setting the space area for the sidebar"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:557
+msgid "Featured post"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:558
+msgid "Show the most recent post as a featured"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:571
+msgid "Custom fields"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:586
+msgid "Custom Field {#}"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:587
+msgid "Add Another Custom Field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:588
+msgid "Remove Custom Field"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:597
+msgid "Title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:603
+msgid "Description"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:609
+msgid "ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:610
+msgid ""
+"Dont use spaces or special characters. Example: field_title, in this case your final fild ID is "
+"<strong>post_type_name_field_title</strong>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:616
+msgid "Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:636
+msgid "Options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:637
+msgid "Itens values for fiedls like, select, radio or multicheck. Insert one item per line"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:643
+msgid "Required"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:644
+msgid "This field is required"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:666
+msgid "Taxonomy settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:677
+msgid "Name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:678
+msgid ""
+"The name is like an ID, dont use spaces or special characteres. You can insert in this field a existing "
+"taxonomy name and ignore the next fields."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:689
+msgid "Singular title"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:698
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:734
+msgid "Slug"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:717
+msgid "Select the post types for use this taxonomy"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/posts-alfa-pack.php:733
+msgid "Post type name"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:13
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:73
+msgid "Posts Alfa Pack"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:30
+msgid "Settings"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:37
+msgid "Load Slick Slider JS"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:45
+msgid "These settings will change how works the plugin"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/settings.php:59
+msgid ""
+"Load Slick slider JS file and CSS file from <a href=\"https://cdnjs.com/\" target=\"_blank\">https://cdnjs."
+"com</a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/single-qpwp_type_post.php:196
+msgid "Sorry, no post were found."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/wordpress/content/plugins/posts-alfa-pack/templates/the-loop.php:123
+msgid "Sorry, no posts were found."
+msgstr ""

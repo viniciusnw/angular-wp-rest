@@ -1,0 +1,242 @@
+/*==============================
+*            FOOTER            *
+==============================*/
+
+.qwp-footer {
+  ul[class*="__list"] {
+    .list-line;
+
+    &:not([class*="__phones"])>li {
+      .qwp-flexbox;
+      .qwp-flexbox-align-top;
+      margin-bottom: @margin-sm;
+    }
+
+    i {
+      height: 30px;
+      min-width: 30px;
+      width: 30px;
+      background-color: @color-0;
+      color: @color-1;
+      line-height: 30px;
+      margin-right: @margin-default;
+      text-align: center;
+
+      & + * {
+        color: @color-0;
+      }
+    }
+  }
+}
+
+/*===============================
+=            Quartel            =
+===============================*/
+
+@font-face {
+  font-family: "quartel-design";
+  src: url("../fonts/q/quartel-design.eot");
+  src: url("../fonts/q/quartel-design.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/q/quartel-design.woff") format("woff"),
+       url("../fonts/q/quartel-design.ttf") format("truetype"),
+       url("../fonts/q/quartel-design.svg#quartel-design") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "quartel-design" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="qicon-"]:before,
+[class*=" qicon-"]:before {
+  font-family: "quartel-design" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.qicon-quartel:before {
+  content: "\61";
+}
+
+/*=====  End of Quartel  ======*/
+
+/*==============================
+=            Bottom            =
+==============================*/
+
+.qwp-footer__bottom {
+  background-color: fade(@color-0, 10%);
+  padding: @padding-md 0;
+
+  &__flex {
+    .qwp-flexbox;
+    .qwp-flexbox-align-center;
+    .qwp-flexbox-space
+  }
+
+  [class*="__copyright"] {
+    color: @color-0;
+    font-size: @size-xs;
+
+    p {
+      margin: 0px;
+    }
+  }
+
+  [class*="__quartel"] {
+    i:before {
+      font-size: 3rem;
+    }
+  }
+}
+
+/*=====  End of Bottom  ======*/
+
+/*=====  End of FOOTER  ======*/
+
+/*=================================
+=            FOOTER 01            =
+=================================*/
+
+.qwp-footer-01 {}
+.qwp-footer-01__top {
+  padding: @padding-md 0;
+
+  &__flex {
+    .qwp-flexbox;
+    .qwp-flexbox-align-top;
+    .qwp-flexbox-space;
+
+    &>[class*="__box--"] {
+      width: 33.33333333333%;
+
+      & + [class*="__box--"] {
+        padding-left: @padding-default;
+      }
+    }
+
+    @media (max-width: @max-sm) {
+      display: inline-block;
+
+      &>[class*="__box--"] {
+        width: 100%;
+        & + [class*="__box--"] {
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
+
+/*=====  End of FOOTER 01  ======*/
+
+/*=================================
+=            FOOTER 02            =
+=================================*/
+
+.qwp-footer-02 {
+  &__top {
+    padding: @padding-lg 0;
+  }
+  &__bottom {
+    padding: @padding-sm 0;
+  }
+}
+.qwp-footer-02__top__flex {
+  .qwp-flexbox;
+  .qwp-flexbox-center;
+}
+.qwp-footer-02__top {
+  padding: @padding-lg 0;
+  @media (max-width: @max-sm) {
+    padding: @padding-sm 0;
+  }
+}
+
+.qwp-footer-02__top__newsletter {
+  width: 40%;
+  margin: auto;
+  @media (max-width: @max-sm) {
+    width: 100%;
+  }
+  [class*="__label"] {
+    font-size: 2rem;
+    text-align: center;
+    color: @color-1;
+    margin: @margin-md 0;
+  }
+  [class*="__input"] {
+    background-color: @color-1;
+    &:focus {
+      background-color: fade(@color-1, 80%);
+    }
+  }
+  [class*="__submit"] {
+    border-color: @color-1;
+    color: @color-1;
+  }
+}
+
+.qwp-footer-02__top__socials {
+  text-align: center;
+  margin: @margin-md 0;
+  li {
+    margin: @margin-sm;
+  }
+  a {
+    background-color: transparent;
+    &:hover {
+      background-color: transparent;
+      color: @color-0;
+    }
+  }
+  i {
+    font-size: 3rem;
+  }
+}
+
+/*=====  End of FOOTER 02  ======*/
+
+/*=================================
+=            FOOTER 03            =
+=================================*/
+
+.qwp-footer-03 {}
+.qwp-footer-03__top {
+  padding: @padding-md 0;
+
+  h4 {
+    color: @color-0;
+  }
+}
+.qwp-footer-03__top__links {
+  .list-line;
+  font-size: 1.333rem;
+
+  a {
+    padding: @padding-xs 0;
+    display: inline-block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/*=====  End of FOOTER 03  ======*/

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "foundation-q-icons";
+  src: url("../fonts/icons-default/foundation-q-icons.eot");
+  src: url("../fonts/icons-default/foundation-q-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons-default/foundation-q-icons.woff") format("woff"), url("../fonts/icons-default/foundation-q-icons.ttf") format("truetype"), url("../fonts/icons-default/foundation-q-icons.svg#foundation-q-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[data-icon]:before,
+.foundation-icons {
+  font-family: "foundation-q-icons" !important;
+  content: attr(data-icon);
+  display: inline-block;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "foundation-q-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-social-skype:before {
+  content: "\63";
+}
+.icon-social-skype-outline:before {
+  content: "\64";
+}
+.icon-social-whatsapp:before {
+  content: "\67";
+}
+.icon-social-whatsapp-outline:before {
+  content: "\68";
+}
+.icon-social-spotify:before {
+  content: "\43";
+}
+.icon-social-rdio:before {
+  content: "\45";
+}
+.icon-social-deezer:before {
+  content: "\46";
+}
+.icon-social-facebook a:before {
+  content: "\61";
+}
+.icon-social-facebook-outline a:before {
+  content: "\62";
+}
+.icon-social-vimeo a:before {
+  content: "\65";
+}
+.icon-social-vimeo-outline a:before {
+  content: "\66";
+}
+.icon-social-tumblr a:before {
+  content: "\69";
+}
+.icon-social-tumblr-outline a:before {
+  content: "\6a";
+}
+.icon-social-youtube a:before {
+  content: "\6b";
+}
+.icon-social-youtube-outline a:before {
+  content: "\6c";
+}
+.icon-social-instagram a:before {
+  content: "\6d";
+}
+.icon-social-instagram-outline a:before {
+  content: "\6e";
+}
+.icon-social-rss a:before {
+  content: "\6f";
+}
+.icon-social-rss-outline a:before {
+  content: "\70";
+}
+.icon-social-twitter a:before {
+  content: "\71";
+}
+.icon-social-twitter-outline a:before {
+  content: "\72";
+}
+.icon-social-linkedin a:before {
+  content: "\73";
+}
+.icon-social-linkedin-outline a:before {
+  content: "\74";
+}
+.icon-social-googleplus a:before {
+  content: "\75";
+}
+.icon-social-googleplus-outline a:before {
+  content: "\76";
+}
+.icon-social-pinterest a:before {
+  content: "\77";
+}
+.icon-social-pinterest-outline a:before {
+  content: "\78";
+}
+.icon-social-apple a:before {
+  content: "\79";
+}
+.icon-social-apple-outline a:before {
+  content: "\7a";
+}
+.icon-social-wordpress a:before {
+  content: "\41";
+}
+.icon-social-wordpress-outline a:before {
+  content: "\42";
+}
+.icon-social-itunes a:before {
+  content: "\44";
+}
+.icon-social-soundcloud a:before {
+  content: "\47";
+}
+.icon-social-flickr a:before {
+  content: "\55";
+}
+.icon-arrow-down:before {
+  content: "\48";
+}
+.icon-arrow-left:before {
+  content: "\49";
+}
+.icon-arrow-right:before {
+  content: "\4a";
+}
+.icon-arrow-up:before {
+  content: "\4b";
+}
+.icon-menu:before {
+  content: "\4d";
+}
+.icon-phone:before {
+  content: "\4e";
+}
+.icon-email:before {
+  content: "\4f";
+}
+.icon-pin:before {
+  content: "\50";
+}
+.icon-search:before {
+  content: "\51";
+}
+.icon-quartel-design:before {
+  content: "\52";
+}
+.icon-quartel:before {
+  content: "\53";
+}
+.icon-load:before {
+  content: "\54";
+}
+.icon-close:before {
+  content: "\4c";
+}
+.fonts {
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.font-01-regular {
+  font-family: 'Roboto Condensed';
+  font-weight: 300;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
