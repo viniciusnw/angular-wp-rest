@@ -10,7 +10,7 @@
 //  Code~Review: Vinicius Inácio <viniciusnw@hotmail.com>
 //
 // ------------------------------------------------------------------------------
-app.directive('directive', function(){
+app.directive('nwDirective', function(){
 
     return {
         

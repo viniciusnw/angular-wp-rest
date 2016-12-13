@@ -90,11 +90,11 @@ app.service('RestService', function ($http, $urlApiLocal, $urlApiOficial, $urlHo
          */
         return $http(config)
                 // Requisicao completa
-                .success(getCustomerComplete)
+                .success( getCustomerComplete )
                 // Verificação de erro a nivel de falha de requisicao
-                .error(getCustomerFailed)
+                .error( getCustomerFailed )
                 // Finally
-                .finally(function() {
+                .finally( function() {
                     console.log("Finished Resquest!");
                 });
     };
@@ -110,7 +110,7 @@ app.service('RestService', function ($http, $urlApiLocal, $urlApiOficial, $urlHo
     /*
      * Failed Resquest ajax
      */
-    function getCustomerFailed(response, status, b, request) {
+    function getCustomerFailed( response, status, b, request ) {
 
         // Error
         console.log('Request Error!!');
