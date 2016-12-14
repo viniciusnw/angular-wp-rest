@@ -11,33 +11,14 @@
 //
 // ---------------------------------------------------------------------------
 
-app.config(function($routeProvider){
-    
-    $routeProvider
-        
-        // Rota Inicial
-        .when('/home',{
-            // Template html
-            templateUrl:  'views/pages/home.html',
-            // Controller
-            controller:   'Home',
-            // Instancia do controller
-            controllerAs: 'home',
-            // Parametros
-            data: {
-                access: 'public'
-            }
-        })
-        
-        /* ==========================================
-         * 
-         * Rota DEFAULT
-         * 
-         * Rota default, quando alguma rota não for 
-         * encontrada
-         * ==========================================
-         */
-        .otherwise({
-            redirectTo: '/home'
-        });
+app.config(function ($stateProvider) {
+
+    $stateProvider.state( 
+        {   
+            name: "home",
+            url: "",
+            templateUrl: 'views/pages/home.html',
+            controller: 'Home as home'
+        }
+    );
 });

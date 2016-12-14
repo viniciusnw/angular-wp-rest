@@ -14,7 +14,6 @@
 app.controller('Home', function( Posts, $scope ) {
     
     var controller = this;
-    controller.title = 'Hello!';
     
     // > Rest Request
     Posts.get();

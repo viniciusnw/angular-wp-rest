@@ -19,7 +19,7 @@
  * @type angular.module.angular-1_3_6_L1749.moduleInstance
  */
 var app = angular.module('app', [
-    'ngRoute',
+    'ui.router',
     'ngCookies',
     'ngAnimate',
     'angular-loading-bar',
